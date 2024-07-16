@@ -17,3 +17,7 @@ Comparison of product subcategories:
 Weekly Trends for Sales & Profits:
 - Show weekly sales and profit for curent year and display the average weekly values.
 - Highlight the weeks that are above and below the average to draw attentio nto sales & profit performance. 
+
+To display the KPI's, we will utilise "BANs" (Big-A Numbers", which are a simple and effective to clearly display key metrics on dashboards. 
+
+For sales trends, since the data will be data for overtime (over the current year and over the previous year), we will utilise sparklines to display this. 
