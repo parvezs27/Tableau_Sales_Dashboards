@@ -22,6 +22,8 @@ To display the KPI's we will utilise "BANs" (Big-Ass Numbers), which are simple 
 
 For sales trends, since the KPI data will be overtime (over the current year and over the previous year on a monthly basis), we can utilise sparklines to showcase this. Sparklines are small and simple line charts which are effective for quickly communicating trends over time within a compact space. For our dashboard, whilst KPI BANs will provide a snapshot of performance at a particular point in time, sparklines will provide a quick view of the trends overtime, as well as allow to us display the highest and lowest selling months. 
 
+For product subcategory comparison, if we were to be comparing only for the current year, then a regular vertical or horizontal bar chart sorted in descending order would be ideal. However since we have multiple dimensions (subcategory, current year, previous year) and one measure (sales performance), a bar-in-bar chart would be effective to display this information.
+
 
 CONTAINERS
 Tiled can get messy as below, compare to containers it is much cleaner and easier to read. Floating the first vertical container keeps nested tiled container from automatically appearing. It makes the dashboard easier to organise and it will scale when changing the ssize of the dashboard. Naming the containers also help with organisation and helping other users with understanding the contents of the dashboard. Blanks will be added to containers as placeholders and colored to see where they are.
