@@ -18,6 +18,10 @@ Weekly Trends for Sales & Profits:
 - Show weekly sales and profit for curent year and display the average weekly values.
 - Highlight the weeks that are above and below the average to draw attentio nto sales & profit performance. 
 
-To display the KPI's, we will utilise "BANs" (Big-A Numbers", which are a simple and effective to clearly display key metrics on dashboards. 
+To display the KPI's we will utilise "BANs" (Big-Ass Numbers), which are simple and effective to clearly display key metrics on Tableau dashboards. 
 
-For sales trends, since the data will be data for overtime (over the current year and over the previous year), we will utilise sparklines to display this. 
+For sales trends, since the KPI data will be overtime (over the current year and over the previous year on a monthly basis), we can utilise sparklines to showcase this. Sparklines are small and simple line charts which are effective for quickly communicating trends over time within a compact space. For our dashboard, whilst KPI BANs will provide a snapshot of performance at a particular point in time, 
+
+
+CONTAINERS
+Tiled can get messy as below, compare to containers it is much cleaner and easier to read. Floating the first vertical container keeps nested tiled container from automatically appearing. It makes the dashboard easier to organise and it will scale when changing the ssize of the dashboard. Naming the containers also help with organisation and helping other users with understanding the contents of the dashboard.
