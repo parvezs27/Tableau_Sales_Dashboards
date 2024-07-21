@@ -43,7 +43,7 @@ Now that we have a plan for how we'll address the content and design, we will no
 
 ## Mockup
 
-I have gone ahead and created a mockup of our dashboard using Fighma here: https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1
+I have gone ahead and used Figma to create a mockup of our dashboard which meets our requirements here: https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1
 
 
 
