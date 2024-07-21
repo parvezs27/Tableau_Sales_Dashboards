@@ -25,6 +25,8 @@ Weekly Trends for Sales & Profits:
 - The charts should be interactive, allowing end users to filter data using the charts themselves.
 - The dashboard should allow end users to filter by category, subcategory and by location such as by region, state and city.
 
+## Plan to Meet Requirements
+
 To display the KPI's we will utilise "BANs" (Big-Ass Numbers), which are simple and effective to clearly display key metrics on Tableau dashboards. 
 
 For sales trends, since the KPI data will be overtime (over the current year and over the previous year on a monthly basis), we can utilise sparklines to showcase this. Sparklines are small and simple line charts which are effective for quickly communicating trends over time within a compact space. For our dashboard, whilst KPI BANs will provide a snapshot of performance at a particular point in time, sparklines will provide a quick view of the trends overtime, as well as allow to us display the highest and lowest selling months. 
@@ -35,7 +37,17 @@ Talking about bar charts, they are one of the most effective and flexible visual
 
 For weekly trends for sales and profits, since are looking at sales and profit data over time (current year) on a weekly basis, a line chart would be the ideal chart to use. 
 
-Now that we have a plan for what
+For dashboard interactivity, paramaters will be utilised to allow end users to see historical data, buttons will be used to allow end users to navigate between dashboards easily and filters will be used to allow filtering using charts and by location.
+
+Now that we have a plan for how we'll address the content and design, we will now create a mockup dashboard. 
+
+## Mockup
+
+I have gone ahead and created a mockup of our dashboard using Fighma here: https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1
+
+
+
+
 
 CONTAINERS
 Tiled can get messy as below, compare to containers it is much cleaner and easier to read. Floating the first vertical container keeps nested tiled container from automatically appearing. It makes the dashboard easier to organise and it will scale when changing the ssize of the dashboard. Naming the containers also help with organisation and helping other users with understanding the contents of the dashboard. Blanks will be added to containers as placeholders and colored to see where they are.
