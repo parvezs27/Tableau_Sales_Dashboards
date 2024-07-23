@@ -45,8 +45,34 @@ Now that we have a plan for how we'll address the content and design, we will no
 
 I have gone ahead and used Figma to create a mockup of our dashboard which meets our requirements here: https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1
 
+Figma is a fantastic tool to use to prototype your dashboards due to it's features and ease of use allowing you to whip up mockups efficiently. 
 
+## Data Source Preparation
 
+We will start by building our data model. It's important to understand the data here and see which tables are dimensions and which table are facts. The Customers, Location and Products tables are dimension tables, as the information in these tables contain categorical data that provide context to measures. The Orders table is a fact table as it contains transactions which are measurable business events. 
+
+Now that we understand our data we can start modeling. We will create a relation between each dimension table and the fact table, as below. You can think of as one fact table and all the dimension tables are connected to this fact table to describe the facts. 
+
+![image](https://github.com/user-attachments/assets/01543540-1e77-4a9b-933c-ab27c0bb1a9e)
+
+Now we'll go ahead and check our data types to ensure that Tableau has interpreted and processed the data correctly. It's not uncommon for Tableau to misinterpet the data, hence why it's important to do a manual check yourself. Potential misinterpretations by Tableau may include interpreting Dates as Strings, which in doing so won't allow looking at the data in relation to time, or numbers as strings, which won't allow us to perform mathematical operations like sum, average or percentage calculations. Upon checking we can see all the data types are correct in our data. Text columns like Product Name have the string data type, numerical columns like Profit have the number data type, date columns have the date data type and location columns have the geographic data type.  
+
+By now it's a good idea to explore the data and become familiar with the structure of it, so you don't have to do a whole lot of figuring out during your visualisation building. 
+
+Now that we've analysed our requirements, created a mockup and built our data source, we can move onto the fun part and start developing our visualisations. 
+
+## Building Charts
+
+#BANs
+We will now go ahead and create our BANs. Here are our specific requirements in relation to BANs:
+- Display a high level overview of total sales, profits and quantity for the current and previous year.
+- The dashboard should allow the end user flexibiity to see historical data.
+
+Below are our BANs:
+
+Key points regarding the creation of our BANs:
+- A calculated field was created for current year metrics and previous year metric, as we want to display the comparison between metrics (sales, profit and quantity).
+- A parameter was created and linked to the calculated fields for current and previous year metrics, to allow end users
 
 
 CONTAINERS
