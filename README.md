@@ -72,7 +72,8 @@ Below are our BANs:
 
 Key points regarding the creation of our BANs:
 - A calculated field was created for current year metrics and previous year metric, as we want to display the comparison between metrics (sales, profit and quantity).
-- A parameter was created and linked to the calculated fields for current and previous year metrics, to allow end users
+- A parameter was created and linked to the calculated fields for current and previous year metrics, to allow end users to dynamically select the year.
+- A calculated field was also created for the % difference between the current and previous years. 
 
 
 CONTAINERS
