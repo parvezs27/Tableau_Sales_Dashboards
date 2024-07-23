@@ -61,19 +61,27 @@ By now it's a good idea to explore the data and become familiar with the structu
 
 Now that we've analysed our requirements, created a mockup and built our data source, we can move onto the fun part and start developing our visualisations. 
 
-## Building Charts
+# Building Charts
 
-#BANs
-We will now go ahead and create our BANs. Here are our specific requirements in relation to BANs:
+## BANs
+We will now go ahead and create our BANs. Here are the specific requirements we'll be addressing using BANs:
 - Display a high level overview of total sales, profits and quantity for the current and previous year.
 - The dashboard should allow the end user flexibiity to see historical data.
 
 Below are our BANs:
 
-Key points regarding the creation of our BANs:
+Key points regarding the creation of the BANs:
 - A calculated field was created for current year metrics and previous year metric, as we want to display the comparison between metrics (sales, profit and quantity).
 - A parameter was created and linked to the calculated fields for current and previous year metrics, to allow end users to dynamically select the year.
-- A calculated field was also created for the % difference between the current and previous years. 
+- A calculated field was also created for the % difference between the current and previous years.
+- The number format "▲ 0.00%; ▼ -0.00%" was implemented, whereby the up arrow is displayed if the perent difference is a positive number and the down arrow is displayed if the percent difference is a negative number.
+
+## Sparklines
+Here are the reqirements we'll be addressing using sparklines:
+- Visualise data for each KPI on a monthly basis for the current and previous year.
+
+Key points regarding the creation of the Sparklines:
+- The calculated field "Min/Max" Sales was created to return the sales value for the rows where the sales are either maximum or minimum in the given window. This will allow us to highlight the maximum and minimum values on the chart. 
 
 
 CONTAINERS
