@@ -12,7 +12,7 @@ Sales Trends:
 - Highlight the months with the highest and lowest sales and make them easily recognisable.
 
 Comparison of product subcategories:
-- Compare the sales and profit for the different product subcategories for the current and previous year.
+- Compare the sales and profit for the different product subcategories for the current and previous year, including a comparison of sales with profit.
 
 Weekly Trends for Sales & Profits:
 - Show weekly sales and profit for curent year and display the average weekly values.
@@ -91,7 +91,18 @@ To double check if our totals are fine, we cross check with Excel and get the su
 
 The same was repeated for the percent increase between years. 
 
-## 
+## Subcategory Comparison
+
+Specific requirements to be addressed:
+- Compare the sales and profit for the different product subcategories for the current and previous year, including a comparison of sales with profit.
+
+A calculated field has been created to show dots on the subcategories where current year sales were below previous year sales. 
+
+## Weekly Trends for Sales and Profit
+
+
+
+
 
 
 
