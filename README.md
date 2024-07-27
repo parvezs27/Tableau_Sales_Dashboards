@@ -100,11 +100,12 @@ A calculated field has been created to show dots on the subcategories where curr
 
 ## Weekly Trends for Sales and Profit
 
+Specific requirements to be addressed:
+- Show weekly sales and profit for curent year and display the average weekly values.
+- Highlight the weeks that are above and below the average to draw attention to sales & profit performance.
 
 
-
-
-
+In the line charts the weekyl sales and profit are displayed for the curent year, as well as the average weekly value with a reference line. We have not utilised a Dual Axis here as overlaying one line graph over the other will cause the reference the lines to be too close to each other making it hard to read, keeping the line graphs separate keeps the chart neat and easier to read. 
 
 
 
