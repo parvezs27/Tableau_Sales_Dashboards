@@ -89,6 +89,10 @@ To double check if our totals are fine, we cross check with Excel and get the su
 
 ![image](https://github.com/user-attachments/assets/68d27ea2-67ff-45b1-88e6-6c7e84ec5677)
 
+The same was repeated for the percent increase between years. 
+
+## 
+
 
 
 
