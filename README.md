@@ -85,6 +85,12 @@ Key points regarding the creation of the Sparklines:
 
 Key points regarding chart:
 
+To double check if our totals are fine, we cross check with Excel and get the sums of sales, profit and quantity. Below we can see that the sales, profit and quantity totals for 2021 match what's shown in Tableau. 
+
+<img width="406" alt="image" src="https://github.com/user-attachments/assets/702c544c-f685-47d1-bc31-4719421d8651">
+
+
+
 
 CONTAINERS
 Tiled can get messy as below, compare to containers it is much cleaner and easier to read. Floating the first vertical container keeps nested tiled container from automatically appearing. It makes the dashboard easier to organise and it will scale when changing the ssize of the dashboard. Naming the containers also help with organisation and helping other users with understanding the contents of the dashboard. Blanks will be added to containers as placeholders and colored to see where they are.
