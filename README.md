@@ -87,7 +87,8 @@ Key points regarding chart:
 
 To double check if our totals are fine, we cross check with Excel and get the sums of sales, profit and quantity. Below we can see that the sales, profit and quantity totals for 2021 match what's shown in Tableau. 
 
-![image](https://github.com/user-attachments/assets/5f65da74-a3b2-486e-9ea7-a2e1cd075bfa)
+![image](https://github.com/user-attachments/assets/68d27ea2-67ff-45b1-88e6-6c7e84ec5677)
+
 
 
 
