@@ -107,6 +107,14 @@ Specific requirements to be addressed:
 
 In the line charts the weekyl sales and profit are displayed for the curent year, as well as the average weekly value with a reference line. We have not utilised a Dual Axis here as overlaying one line graph over the other will cause the reference the lines to be too close to each other making it hard to read, keeping the line graphs separate keeps the chart neat and easier to read. 
 
+The path in this chart could be kept as linear, which is absolutely fine, but we decided to change it up a little but making the chart a bit more interesting with a step path. 
+
+Now that we've finished our charts, we can now move onto arranging all these charts onto a dashboard.
+
+# Building Dashboard
+
+### Sizing:
+Sizing dashboards can be tricky due to various factors such as the problematic default Tableau scaling, the various displays sizes of the various end users, as well as the default zoom levels in the computer display settings of the end users. Generally, it's best to start with avoiding Tableau's automatic sizing. Whilst it sounds like the ideal option to go with, what tends to happen is that your dashboard can break when scaling. Alignments become misaligned, floating elements may not scale up/down with the rest of the non-floating elements, as well as other issues. 
 
 
 
