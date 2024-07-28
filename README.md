@@ -120,6 +120,10 @@ Now that we know we should be using fixed sizing, the question arises, what size
 
 For this project, we will utilise a custom fixed size of 1200 x 800, however, in the real world we will obtain a better understanding of the screen sizes of the end users and develop several dashboards accommodating to those sizes. This doesn't mean we have to develop 20 different dashboards for each different size, as a 1200 x 800 dashboard for example will be fine for screen sizes around the same size (above or below). However where there's a bigger difference, for example if the dashboard needs to be viewed on a smaller laptop screen or phone, that's when we'll create a dashboard accommodating for the sizes at that level of smaller viewing. 
 
+### Filtering
+
+
+
 
 CONTAINERS
 Tiled can get messy as below, compare to containers it is much cleaner and easier to read. Floating the first vertical container keeps nested tiled container from automatically appearing. It makes the dashboard easier to organise and it will scale when changing the ssize of the dashboard. Naming the containers also help with organisation and helping other users with understanding the contents of the dashboard. Blanks will be added to containers as placeholders and colored to see where they are. 
