@@ -155,12 +155,12 @@ Customer Trends
 - Present data for each KPI on a monthly basis for the current and previous year.
 - Identify the months with the highest and lowest sales, highlighting these mnths for easier recognition. 
 
-Comparison of product subcategories:
-- Compare the sales and profit for the different product subcategories for the current and previous year, including a comparison of sales with profit.
+Customer Distribution by Number of Orders:
+- Provide a representation of the distribution of customers based on the number of orders placed in order to provide insights into customer behaviour, loyality and engagement. 
 
-Weekly Trends for Sales & Profits:
-- Show weekly sales and profit for curent year and display the average weekly values.
-- Highlight the weeks that are above and below the average to draw attentio nto sales & profit performance.
+Top 10 Customers by Profit:
+- Display the top 10 customers by profits generated in descending order.
+- Show additional information such as rank, number of orders, current sales, current profit and the last order date.
 
 ## Design Requirements
 
@@ -171,9 +171,7 @@ Weekly Trends for Sales & Profits:
 
 ## Plan to Meet Requirements
 
-To display the KPI's we will utilise "BANs" (Big-Ass Numbers), which are simple and effective to clearly display key metrics on Tableau dashboards. 
-
-For sales trends, since the KPI data will be overtime (over the current year and over the previous year on a monthly basis), we can utilise sparklines to showcase this. Sparklines are small and simple line charts which are effective for quickly communicating trends over time within a compact space. For our dashboard, whilst KPI BANs will provide a snapshot of performance at a particular point in time, sparklines will provide a quick view of the trends overtime, as well as allow to us display the highest and lowest selling months. 
+The KPI Overview and Customer Trend requirements are very similar to the requirements for the Sales Dashboard above. Hence, the plan to meet these requirements will be exactly the same. BAN's will be used to display the KPI's whilst sparklines will be used to showcase customer trends overtime. 
 
 For product subcategory comparison, if we were to be comparing subcategories only for the current year, then a regular vertical or horizontal bar chart sorted in descending order would be ideal. However since we have multiple dimensions (subcategory, current year, previous year) and one measure (sales performance), a bar-in-bar chart would be effective to display the product subcategory sales and profits by current and previous year. 
 
