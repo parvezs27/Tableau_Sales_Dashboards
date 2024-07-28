@@ -1,4 +1,4 @@
-# Task Context
+ Task Context
 
 We are working as Data Analysts for the retail company "Superstore", which sells furniture, office supplies and technology items. We have been tasked with developing two dashboards utilising Tableau to assist stakeholders, including sales managers and executives to analyse sales performance and customers. Stakeholders would like a high level view of key metrics and to be able to analyse year-over-year sales performance. Stakeholders have mentioned the below as primary requirements for the dashboards.
 
@@ -123,4 +123,10 @@ For this project, we will utilise a custom fixed size of 1200 x 800, however, in
 
 
 CONTAINERS
-Tiled can get messy as below, compare to containers it is much cleaner and easier to read. Floating the first vertical container keeps nested tiled container from automatically appearing. It makes the dashboard easier to organise and it will scale when changing the ssize of the dashboard. Naming the containers also help with organisation and helping other users with understanding the contents of the dashboard. Blanks will be added to containers as placeholders and colored to see where they are.
+Tiled can get messy as below, compare to containers it is much cleaner and easier to read. Floating the first vertical container keeps nested tiled container from automatically appearing. It makes the dashboard easier to organise and it will scale when changing the ssize of the dashboard. Naming the containers also help with organisation and helping other users with understanding the contents of the dashboard. Blanks will be added to containers as placeholders and colored to see where they are. 
+
+Your item hierarchy should be looking like this. With tiled containers there would be extra layers which make it all confusing. 
+
+![image](https://github.com/user-attachments/assets/1f57a467-8359-4251-b97b-120ef7abbe90)
+![image](https://github.com/user-attachments/assets/698f2a3a-44c7-4c0b-b595-bf81ad913a60)
+
