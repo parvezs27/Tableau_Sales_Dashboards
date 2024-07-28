@@ -114,8 +114,7 @@ Now that we've finished our charts, we can now move onto arranging all these cha
 # Building Dashboard
 
 ### Sizing:
-Sizing dashboards can be tricky due to various factors such as the problematic default Tableau scaling, the various displays sizes of the various end users, as well as the default zoom levels in the computer display settings of the end users. Generally, it's best to start with avoiding Tableau's automatic sizing. Whilst it sounds like the ideal option to go with, what tends to happen is that your dashboard can break when scaling. Alignments become misaligned, floating elements may not scale up/down with the rest of the non-floating elements, as well as other issues. 
-
+Sizing dashboards can be tricky due to various factors such as the problematic default Tableau scaling, the various displays sizes of the various end users, as well as the default zoom levels in the computer display settings of the end users. Generally, it's best to start with avoiding Tableau's automatic sizing. Whilst it sounds like the ideal option to go with, what tends to happen is that your dashboard can break when scaling. Alignments become misaligned, floating elements may not scale up/down with the rest of the non-floating elements and viewing an automatically sized dashboard on Tableau Server can be slower. This tends to be the case when multiple users are accessing the dashboard on Tableau Server, the server renders the screen size to find the lowest common denominator screen size among all the people viewing the dashboard, causing slower load times and site crashes. To avoid all these issues, fixed sized dashboards are recommended. Dashboard elements stay in place and when viewed on Tableau Server, they tend to load faster as a cached version will be used on the server. 
 
 
 CONTAINERS
