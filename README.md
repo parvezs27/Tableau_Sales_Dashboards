@@ -131,28 +131,28 @@ Now that we've analysed our requirements, created a mockup and built our data so
 We will now go ahead and create our BANs, as below:
 
 ![image](https://github.com/user-attachments/assets/68d27ea2-67ff-45b1-88e6-6c7e84ec5677)
-*Image 2: BANs*
+
+*Image 2: BANs - KPI values cross-referenced with Excel*
 
 Key points regarding the creation of BANs:
-- Calculated fields were created for current year, previous year and the difference between current and previous year. These fields were linked
-- A parameter was created and linked to the calculated fields for current and previous year metrics, to allow end users to dynamically select the year.
-- A calculated field was also created for the % difference between the current and previous years.
-- The number format "▲ 0.00%; ▼ -0.00%" was implemented, whereby the up arrow is displayed if the perent difference is a positive number and the down arrow is displayed if the percent difference is a negative number.
+- Calculated fields were created for current year, previous year and the difference between current and previous year. 
+- A parameter was created and linked to the calculated fields for current and previous year metrics, to allow dynamic year selection.
+- Calculated fields were also created for the % difference between the current and previous years metrics.
+- The custom format "▲ 0.0%; ▼ -0.0%" was implemented for the % difference between current and previous year metrics, where the up arrow denotes a positive percent difference and the down arrow denotes a negative percent difference.
+- The values of the metrics were cross referenced for all years against Excel. Sometimes Tableau can misinterpret values and misconstrue aggregations. Which is why it's a good idea to double check the values outside of Tableau. In Image 2, we can see that the aggregation for the metrics for the year 2021 are correct. 
 
 ## Sparklines
-Here are the reqirements we'll be addressing using sparklines:
-- Visualise data for each KPI on a monthly basis for the current and previous year.
 
 Key points regarding the creation of the Sparklines:
-- The calculated field "Min/Max" Sales was created to return the sales value for the rows where the sales are either maximum or minimum in the given window. This will allow us to highlight the maximum and minimum values on the chart. 
 
-Key points regarding chart:
+- The calculated field "Min/Max" was created for sales, profit and quantity, in order to return the value for the rows where the metric value is either maximum or minimum in the given window. This will allow us to highlight the maximum and minimum values on the chart. 
 
-To double check if our totals are fine, we cross check with Excel and get the sums of sales, profit and quantity. Below we can see that the sales, profit and quantity totals for 2021 match what's shown in Tableau. 
+After formatting, below are our final KPI charts:
 
-![image](https://github.com/user-attachments/assets/68d27ea2-67ff-45b1-88e6-6c7e84ec5677)
+![image](https://github.com/user-attachments/assets/96c598a4-2d34-4254-b07c-514071f72022)
+*Image 3. KPI Charts*
 
-The same was repeated for the percent increase between years. 
+
 
 ## Subcategory Comparison
 
