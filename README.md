@@ -217,7 +217,7 @@ After formatting and re-arranging the elements, below if the final version of th
 ![image](https://github.com/user-attachments/assets/11bad169-b104-41b2-ab20-9aa64c7eb4d3)
 
 
-# Analysis of Requirements
+# Analysis of Requirements (Customers Dashboard)
 
 ## Content Requirements
 
