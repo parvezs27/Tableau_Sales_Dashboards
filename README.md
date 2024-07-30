@@ -20,7 +20,7 @@ To tackle this task, we will follow the plan below:
 - Format charts
   - Remove gridlines and other unnecessary lines
   - Clean up axes and headers
-  - Choose colors and format tooltips
+  - Select colors and format tooltips
  
  ## Build the Dashboards
  - Build container structure
@@ -107,9 +107,10 @@ Now that we have a plan for addressing the requirements, we'll go ahead and crea
 
 ## Mockup
 
-I have gone ahead and used Figma to create a mockup of our dashboard which meets our requirements here: https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1
+We have used Figma to create a mockup of our dashboard, link below:
+https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1
 
-Figma is a fantastic tool to use to prototype your dashboards due to it's features and ease of use allowing you to whip up mockups efficiently. 
+Figma is a great tool to use to prototype your dashboards due to it's features and ease of use. In our mockup, we have opted for a clear, uncluttered and minimalist design, by using simple charts, utilising white space and conservative use of colouring (4-5 key colours).
 
 ## Data Source Preparation
 
