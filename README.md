@@ -33,7 +33,7 @@ To tackle this task, we will follow the plan below:
    - Add icons for navigation buttons
 - Test the dashboard
 
-# Sales Dashboard
+# Analysis of Requirements
 
 ## Content Requirements
 
@@ -112,7 +112,7 @@ https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&
 
 Figma is a great tool to use to prototype your dashboards due to it's features and ease of use. In our mockup, we have opted for a clear, uncluttered and minimalist design, by using simple charts, utilising white space and conservative use of colouring (4-5 key colours). The Customers Dashboard will follow a very similar structure to the Sales dashboard.
 
-## Data Source Preparation
+# Data Source Preparation
 
 We will start by building our data model. It's important to understand the data we have and to see which tables are dimensions and which table are facts. The Customers, Location and Products tables are dimension tables, as the information in these tables contain categorical data that provide context to measures. The Orders table is a fact table, as it contains transactions which are measurable business events. 
 
@@ -128,14 +128,13 @@ Now that we've analysed our requirements, created a mockup and built our data so
 # Building Charts
 
 ## BANs
-We will now go ahead and create our BANs. Here are the specific requirements we'll be addressing using BANs:
-- Display a high level overview of total sales, profits and quantity for the current and previous year.
-- The dashboard should allow the end user flexibiity to see historical data.
+We will now go ahead and create our BANs, as below:
 
-Below are our BANs:
+![image](https://github.com/user-attachments/assets/68d27ea2-67ff-45b1-88e6-6c7e84ec5677)
+*Image 2: BANs*
 
-Key points regarding the creation of the BANs:
-- A calculated field was created for current year metrics and previous year metric, as we want to display the comparison between metrics (sales, profit and quantity).
+Key points regarding the creation of BANs:
+- Calculated fields were created for current year, previous year and the difference between current and previous year. These fields were linked
 - A parameter was created and linked to the calculated fields for current and previous year metrics, to allow end users to dynamically select the year.
 - A calculated field was also created for the % difference between the current and previous years.
 - The number format "▲ 0.00%; ▼ -0.00%" was implemented, whereby the up arrow is displayed if the perent difference is a positive number and the down arrow is displayed if the percent difference is a negative number.
