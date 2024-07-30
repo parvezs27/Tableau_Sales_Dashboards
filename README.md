@@ -68,7 +68,7 @@ Below is our plan to meet the content and design requirements.
 
 **KPI Overview:**
 
-**Display a high level overview of total sales, profits and quantity for the current and previous year.**
+** - Display a high level overview of total sales, profits and quantity for the current and previous year.**
 
 To display the KPI's, we will utilise "BANs" (Big-Ass Numbers). BAN's display key metrics or KPI's in a large, bold format. This offers several benefits, such as:
 - Quicker, clearer and easier noticeability of key information. The larger and bolder text has more of a direct impact, allowing critical information to be seen quickly and clearly. This reduces cognitive load on the viewer and having to search around the screen for the key information, ultimately allowing for a better viewing experience.
@@ -76,22 +76,34 @@ To display the KPI's, we will utilise "BANs" (Big-Ass Numbers). BAN's display ke
 
 **Sales Trends:**
 
-**Visualise data for each KPI on a monthly basis for the current and previous year.**
-**Highlight the months with the highest and lowest sales and make them easily recognisable.**
+** - Visualise data for each KPI on a monthly basis for the current and previous year.**
+** - Highlight the months with the highest and lowest sales and make them easily recognisable.**
 
-Since we are required to visualise A) Sales Trends and B) the data for each KPI on a monthly basis for current and previous years, we will use sparklines to achieve this. Sparklines are smaller and simpler line chart without axes and coordinates used to show trends overtime in an uncluttered way. For our task, they will complement the BAN's well, as the BAN's will provide a snapshot of key metrics whilst the sparklines will provide the trend overtime for current and previous years (2 lines), providing more context.  For our dashboard, whilst KPI BANs will provide a snapshot of performance at a particular point in time, sparklines will provide a quick view of the trends overtime, as well as allow to us display the highest and lowest selling months. 
+Since we are required to visualise A) Sales Trends and B) the data for each KPI on a monthly basis for current and previous years, we will use sparklines to achieve this. Sparklines are smaller and simpler line chart without axes and coordinates used to show trends overtime in an uncluttered way. For our task, they will complement the BAN's well, as the BAN's will provide a snapshot of key metrics at a particular point in time, whilst the sparklines will provide the trends overtime for current and previous years (2 lines), providing more context. We will also be able to highlight the highest and lowest selling months on the sparklines. 
 
- A sparkline is a very small line chart, typically drawn without axes or coordinates. It presents the general shape of a variation (typically over time) in some measurement, such as temperature or stock market price, in a simple and highly condensed way.
+**Comparison of product subcategories:**
+** - Compare the sales and profit of the different product subcategories for the current and previous year, including a comparison of sales with profit.**
 
-For product subcategory comparison, if we were to be comparing subcategories only for the current year, then a regular vertical or horizontal bar chart sorted in descending order would be ideal. However since we have multiple dimensions (subcategory, current year, previous year) and one measure (sales performance), a bar-in-bar chart would be effective to display the product subcategory sales and profits by current and previous year. 
+For the comparison of product subcategories, if we were to be comparing subcategories only for the current year, then a regular vertical or horizontal bar chart would be an good choice. However, since we have multiple dimensions (subcategory, current year, previous year) and one measure (sales performance), a bar-in-bar chart would be an ideal chart to display the product subcategory sales and profits by current and previous year. 
 
-Talking about bar charts, they are one of the most effective and flexible visualisations to use to communicate information quickly and clearly. There are several features of bar charts that allow for this including the length of the bars which allow for an easier comparison of values across different categories, the visual separation between bars which allows for clear distinction between categories and the ability to customise the chart with colours, labels and annotations to emphasise key information. 
+Talking about bar charts, they are one of the most commonly used and effective visualisations to communicate information quickly and clearly. There are several features of bar charts that allow for this including the length of the bars which provide an easier comparison of values across different categories, the visual separation between bars which allows for clear distinction between categories and the ability to customise the chart with colours, labels and annotations to emphasise key information.
 
-For weekly trends for sales and profits, since are looking at sales and profit data over time (current year) on a weekly basis, a line chart would be the ideal chart to use. 
+**Weekly Trends for Sales & Profits:**
+**- Show the weekly sales and profit for the current year and display the average weekly sales and profit values.**
+** - Highlight the weeks that are above and below the average values.**
 
-For dashboard interactivity, paramaters will be utilised to allow end users to see historical data, buttons will be used to allow end users to navigate between dashboards easily and filters will be used to allow filtering using charts and by location.
+For weekly trends for sales and profits, since we are looking at sales and profit data over time on a weekly basis, a line chart would be a good choice chere. The path of the chart can be customised from a linear path to a step path for example. Line charts with a linear path use straight lines between data points, implying a constant rate of change from one data point to the next, which may not always be true. Step line charts can be an effective way to display a more accurate depiciton of the change between data points by showing how long the value at a specific data point lasts or how large a change is between data points. 
 
-Now that we have a plan for how we'll address the content and design, we will now create a mockup dashboard. 
+**Design Requirements**
+
+- Allow the end user flexibiity to view historical data.
+- Allow the end user easy navigatation between dashboards.
+- Charts should be interactive, allowing end users to filter data using the charts themselves.
+- The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
+
+Paramaters will be utilised to allow end users to view historical data for previous years. Filters will be utilised to allow end users to filter using charts and to filter by category, subcategory and location. Finally, navigation buttons will be included allowing navigation between dashboards.
+
+Now that we have a plan for addressing the requirements, we'll go ahead and create a mockup dashboard.
 
 ## Mockup
 
@@ -224,7 +236,7 @@ The KPI Overview and Customer Trend requirements are very similar to the require
 
 For customer distribution by number of orders, a histogram will be used. Histograms will help in understanding how many customers fall into the different ranges (bins) of the number of orders placed, providing a clear picture of the overall distribution. Additionally, the histogram will also allow the spotting of outliers or unusual data points that may indicate unique customer segements or behaviours. 
 
-For product subcategory comparison, if we were to be comparing subcategories only for the current year, then a regular vertical or horizontal bar chart sorted in descending order would be ideal. However since we have multiple dimensions (subcategory, current year, previous year) and one measure (sales performance), a bar-in-bar chart would be effective to display the product subcategory sales and profits by current and previous year. 
+For product subcategory comparison, if we were to be comparing subcategories only for the current year, then a regular vertical or horizontal bar chart sorted in descending order would be a good choice. However since we have multiple dimensions (subcategory, current year, previous year) and one measure (sales performance), a bar-in-bar chart would be effective to display the product subcategory sales and profits by current and previous year. 
 
 For top 10 customers by highest profit, a table will be used. Due to the amount of detail we have to display, a simple table with the metrics as columns and ranks as rows will provide a clear picture. 
 
