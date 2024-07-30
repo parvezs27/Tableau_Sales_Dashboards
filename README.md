@@ -18,7 +18,9 @@ To tackle this task, we will follow the plan below:
 - Create and test Calculated Fields
 - Build Chart
 - Format
-  - Remove gridlines/other lines, clean up axes and headers, choose colors and format tooltips
+  - Remove gridlines and other unnecessary lines
+  - Clean up axes and headers
+  - Choose colors and format tooltips
  
  ## Build the Dashboards
  - Build container structure
