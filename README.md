@@ -190,8 +190,9 @@ With the decision to use fixed sizing for dashboards, the next question is deter
 
 The PowerPoint sizing option is particularly popular, as many organisations prefer to view and share dashboards as slides. For this project, we will use a custom fixed size of 1200 x 800. In practice, we would assess the screen sizes of end users and develop dashboards tailored to those dimensions. This doesn't mean creating an excessive number of dashboards; a 1200 x 800 dashboard, for instance, will be sufficient for screens of similar sizes. However, where thare are significant differences, such as viewing on smaller laptop screens or phones, will necessitate creating dashboards specifically designed for those smaller formats.
 
-CONTAINERS
-Tiled can get messy as below, compare to containers it is much cleaner and easier to read. Floating the first vertical container keeps nested tiled container from automatically appearing. It makes the dashboard easier to organise and it will scale when changing the ssize of the dashboard. Naming the containers also help with organisation and helping other users with understanding the contents of the dashboard. Blanks will be added to containers as placeholders and colored to see where they are. 
+### Container Structure
+
+Tableau layout containers are fantastic tools to use to help structure and organise your dashboard. They allow the grouping of elements, which helps with alignment and resizing the elements all at once. Tableau's default container preference is to use "Tiled" containers, whilst they're easy to use, they can get quite messy as they tend to create unnecessary layers within the item hierarchy. , compare to containers it is much cleaner and easier to read. Floating the first vertical container keeps nested tiled container from automatically appearing. It makes the dashboard easier to organise and it will scale when changing the ssize of the dashboard. Naming the containers also help with organisation and helping other users with understanding the contents of the dashboard. Blanks will be added to containers as placeholders and colored to see where they are. 
 
 Your item hierarchy should be looking like this. With tiled containers there would be extra layers which make it all confusing. 
 
