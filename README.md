@@ -233,103 +233,77 @@ After formatting and re-arranging the elements, below if the final version of th
 
 
 
-# Customer Dashboard
+# Analysis of Requirements
 
 ## Content Requirements
 
+The requirements below for the Customers Dashboard have also been provided to us by management:
+
 KPI Overview:
-Display a summary of the total number of customers, total sales per customer and the total number of orders for the current and previous year. 
+
+- Display a high level view of the total number of customers, total sales per customer and the total number of orders for the current and previous years.
 
 Customer Trends
 - Present data for each KPI on a monthly basis for the current and previous year.
-- Identify the months with the highest and lowest sales, highlighting these mnths for easier recognition. 
+- Identify the months with the highest and lowest sales, highlighting these months for easier recognition. 
 
 Customer Distribution by Number of Orders:
-- Provide a representation of the distribution of customers based on the number of orders placed in order to provide insights into customer behaviour, loyality and engagement. 
+- Provide a representation of the distribution of customers based on the number of orders placed to provide insights into customer behaviour, loyality and engagement. 
 
 Top 10 Customers by Profit:
-- Display the top 10 customers by profits generated in descending order.
+- Display the top 10 customers by profits in descending order.
 - Show additional information such as rank, number of orders, current sales, current profit and the last order date.
 
 ## Design Requirements
 
-- The dashboard should allow the end user flexibiity to see historical data.
-- The dashboard should allow the end user to navigate between dashboards easily.
-- The charts should be interactive, allowing end users to filter data using the charts themselves.
-- The dashboard should allow end users to filter by category, subcategory and by location such as by region, state and city.
+- Allow the end user flexibiity to view historical data.
+- Allow the end user easy navigatation between dashboards.
+- Charts should be interactive, allowing end users to filter data using the charts themselves.
+- The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
 
 ## Plan to Meet Requirements
 
-The KPI Overview and Customer Trend requirements are very similar to the requirements for the Sales Dashboard above. Hence, the plan to meet these requirements will be exactly the same. BAN's will be used to display the KPI's whilst sparklines will be used to showcase customer trends overtime. 
+Below is our plan to meet the content and design requirements.
 
-For customer distribution by number of orders, a histogram will be used. Histograms will help in understanding how many customers fall into the different ranges (bins) of the number of orders placed, providing a clear picture of the overall distribution. Additionally, the histogram will also allow the spotting of outliers or unusual data points that may indicate unique customer segements or behaviours. 
+**KPI Overview:**
 
-For product subcategory comparison, if we were to be comparing subcategories only for the current year, then a regular vertical or horizontal bar chart sorted in descending order would be a good choice. However since we have multiple dimensions (subcategory, current year, previous year) and one measure (sales performance), a bar-in-bar chart would be effective to display the product subcategory sales and profits by current and previous year. 
+- **Display a high level view of the total number of customers, total sales per customer and the total number of orders for the current and previous years.**
 
-For top 10 customers by highest profit, a table will be used. Due to the amount of detail we have to display, a simple table with the metrics as columns and ranks as rows will provide a clear picture. 
+**Customer Trends**
+- **Present data for each KPI on a monthly basis for the current and previous year.**
+- **Identify the months with the highest and lowest sales, highlighting these months for easier recognition.**
 
-For dashboard interactivity, paramaters will be utilised to allow end users to see historical data, buttons will be used to allow end users to navigate between dashboards easily and filters will be used to allow filtering using charts and by location.
+The KPI Overview and Customer Trend requirements are very similar to the KPI requirements and Sales Trends for the Sales Dashboard above. Hence, the plan to meet these requirements will be exactly the same. BAN's will be used to display the KPI's whilst sparklines will be used to showcase customer trends overtime. 
 
-Now that we have a plan for how we'll address the content and design, we will now create a mockup dashboard. 
+**Customer Distribution by Number of Orders:**
 
-## Mockup
+- **Provide a representation of the distribution of customers based on the number of orders placed to provide insights into customer behaviour, loyality and engagement.**
 
-I have gone ahead and used Figma to create a mockup of our dashboard which meets our requirements here: https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1
+For customer distribution by number of orders, a histogram will be used. A histogram will help in understanding how many customers fall into the different ranges (bins) of the number of orders placed, providing picture of the overall distribution. Additionally, the histogram will also allow the spotting of outliers or unusual data points that may indicate unique customer segements or behaviours. 
 
-Figma is a fantastic tool to use to prototype your dashboards due to it's features and ease of use allowing you to whip up mockups efficiently. 
+**Top 10 Customers by Profit:**
+- **Display the top 10 customers by profits in descending order.**
+- **Show additional information such as rank, number of orders, current sales, current profit and the last order date.**
 
-## Data Source Preparation
+For Top 10 Customers by Profit, a simple table will be used. Due to the amount of detail we have to display, a table with the metrics as columns and ranks as rows will provide a picture of the information required. 
 
-We will start by building our data model. It's important to understand the data here and see which tables are dimensions and which table are facts. The Customers, Location and Products tables are dimension tables, as the information in these tables contain categorical data that provide context to measures. The Orders table is a fact table as it contains transactions which are measurable business events. 
+Paramaters will be utilised to allow end users to view historical data for previous years. Filters will be utilised to allow end users to filter using charts and to filter by category, subcategory and location. Finally, navigation buttons will be included allowing navigation between dashboards.
 
-Now that we understand our data we can start modeling. We will create a relation between each dimension table and the fact table, as below. You can think of as one fact table and all the dimension tables are connected to this fact table to describe the facts. 
-
-![image](https://github.com/user-attachments/assets/01543540-1e77-4a9b-933c-ab27c0bb1a9e)
-
-Now we'll go ahead and check our data types to ensure that Tableau has interpreted and processed the data correctly. It's not uncommon for Tableau to misinterpet the data, hence why it's important to do a manual check yourself. Potential misinterpretations by Tableau may include interpreting Dates as Strings, which in doing so won't allow looking at the data in relation to time, or numbers as strings, which won't allow us to perform mathematical operations like sum, average or percentage calculations. Upon checking we can see all the data types are correct in our data. Text columns like Product Name have the string data type, numerical columns like Profit have the number data type, date columns have the date data type and location columns have the geographic data type.  
-
-By now it's a good idea to explore the data and become familiar with the structure of it, so you don't have to do a whole lot of figuring out during your visualisation building. 
-
-Now that we've analysed our requirements, created a mockup and built our data source, we can move onto the fun part and start developing our visualisations. 
+We won't create a mockup for the Customer Dashboard, as it will be the exact same structure as the Sales Dashboard. We will also skip Data Source Preparation as we already have the data source prepared.
 
 # Building Charts
 
 ## BANs
-We will now go ahead and create our BANs. Here are the specific requirements we'll be addressing using BANs:
-- Display a high level overview of total sales, profits and quantity for the current and previous year.
-- The dashboard should allow the end user flexibiity to see historical data.
 
-Below are our BANs:
-
-Key points regarding the creation of the BANs:
-- A calculated field was created for current year metrics and previous year metric, as we want to display the comparison between metrics (sales, profit and quantity).
-- A parameter was created and linked to the calculated fields for current and previous year metrics, to allow end users to dynamically select the year.
-- A calculated field was also created for the % difference between the current and previous years.
-- The number format "▲ 0.00%; ▼ -0.00%" was implemented, whereby the up arrow is displayed if the perent difference is a positive number and the down arrow is displayed if the percent difference is a negative number.
+We will follow the exact same process here as we did for the Sales Dashboard, which is to create the required calculated fields, test these fields and test the aggregated values against Excel. 
 
 ## Sparklines
-Here are the reqirements we'll be addressing using sparklines:
-- Visualise data for each KPI on a monthly basis for the current and previous year.
 
-Key points regarding the creation of the Sparklines:
-- The calculated field "Min/Max" Sales was created to return the sales value for the rows where the sales are either maximum or minimum in the given window. This will allow us to highlight the maximum and minimum values on the chart. 
+The same process as the Sales Dashboard will be followed here too.
 
-Key points regarding chart:
+## Histogram and Weekly Trends for Sales and Top 10 Customers by Profit
 
-To double check if our totals are fine, we cross check with Excel and get the sums of sales, profit and quantity. Below we can see that the sales, profit and quantity totals for 2021 match what's shown in Tableau. 
-
-![image](https://github.com/user-attachments/assets/68d27ea2-67ff-45b1-88e6-6c7e84ec5677)
-
-The same was repeated for the percent increase between years. 
-
-## Subcategory Comparison
-
-Specific requirements to be addressed:
-- Compare the sales and profit for the different product subcategories for the current and previous year, including a comparison of sales with profit.
-
-A calculated field has been created to show dots on the subcategories where current year sales were below previous year sales. 
-
-## Weekly Trends for Sales and Profit
+Whilst the Histogram was relatively straight forward to build, for the Top 10 Customers by Profit table required some extra calculated fields. 
 
 Specific requirements to be addressed:
 - Show weekly sales and profit for curent year and display the average weekly values.
