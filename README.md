@@ -33,6 +33,8 @@ To tackle this task, we will follow the plan below:
    - Add icons for navigation buttons
 - Test the dashboard
 
+The documentation for this dashboard will be kept in a separate file. Embedding documentation within a Tableau dashboard can create several issues. It consumes space, which in turn reduces space for visualisations and other elements. Frequent updates become cumbersome as they require republishing the entire dashboard, and managing version control becomes challenging. User experience can suffer due to navigation difficulties and limited flexibility in accessing documentation. Additionally, extensive embedded documentation can negatively impact load times and overall dashboard performance. Therefore, keeping documentation separate is ideal for efficiency and a better user experience.
+
 # Analysis of Requirements (Sales Dashboard)
 
 ## Content Requirements
