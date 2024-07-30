@@ -40,18 +40,18 @@ To tackle this task, we will follow the plan below:
 The requirements below for the Sales Dashboard have been provided to us by management.
 
 KPI Overview:
-- Display a high level overview of total sales, profits and quantity for the current and previous year.
+- Display a high level view of total sales, total profit and quantity sold for current and previous years. 
 
 Sales Trends:
-- Visualise data for each KPI on a monthly basis for the current and previous year.
-- Highlight the months with the highest and lowest sales and make them easily recognisable.
+- Visualise data for each KPI on a monthly basis for current and previous years.
+- Highlight the months with the highest and lowest sales, whilst making them easily recognisable.
 
 Comparison of product subcategories:
 - Compare the sales and profit for the different product subcategories for the current and previous year, including a comparison of sales with profit.
 
 Weekly Trends for Sales & Profits:
-- Show weekly sales and profit for curent year and display the average weekly values.
-- Highlight the weeks that are above and below the average to draw attentio nto sales & profit performance.
+- Show the weekly sales and profit for the current year and display the average weekly sales and profit values.
+- Highlight the weeks that are above and below the average values.
 
 ## Design Requirements
 
