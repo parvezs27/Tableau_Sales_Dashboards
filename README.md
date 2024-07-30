@@ -57,16 +57,29 @@ Weekly Trends for Sales & Profits:
 
 The Sales Dashboard should meet the following design requirements:
 
-- Allow the end user flexibiity to see historical data.
-- Allow the end user to navigate between dashboards easily.
-- The charts should be interactive, allowing end users to filter data using the charts themselves.
-- The dashboard should allow end users to filter by category, subcategory and by location such as by region, state and city.
+- Allow the end user flexibiity to view historical data.
+- Allow the end user easy navigatation between dashboards.
+- Charts should be interactive, allowing end users to filter data using the charts themselves.
+- The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
 
 ## Plan to Meet Requirements
 
-Below is our plan to meet the content and design requirements:
+Below is our plan to meet the content and design requirements.
 
-To display the KPI's we will utilise "BANs" (Big-Ass Numbers), which are simple and effective to clearly display key metrics on Tableau dashboards. 
+**KPI Overview:**
+
+**Display a high level overview of total sales, profits and quantity for the current and previous year.**
+
+**Sales Trends:
+
+**Visualise data for each KPI on a monthly basis for the current and previous year.**
+**Highlight the months with the highest and lowest sales and make them easily recognisable.**
+
+To display the KPI's, we will utilise "BANs" (Big-Ass Numbers). BAN's display key metrics or KPI's in a large, bold format. This offers several benefits, such as:
+- Quicker, clearer and easier noticeability of key information. The larger and bolder text has more of a direct impact, allowing critical information to be seen quickly and clearly. This reduces cognitive load on the viewer and having to search around the screen for the key information, ultimately allowing for a better viewing experience.
+- Improvement of dashboard structure and reading flow. Having large and bold text at the top of the dashboard to highlight critical information creates a top to bottom visual hierarchy, where the most information is highlighted at the top. This provides dashboard structure and a logical reading flow for the end user. 
+
+which  which are simple and effective to clearly display key metrics on Tableau dashboards. 
 
 For sales trends, since the KPI data will be overtime (over the current year and over the previous year on a monthly basis), we can utilise sparklines to showcase this. Sparklines are small and simple line charts which are effective for quickly communicating trends over time within a compact space. For our dashboard, whilst KPI BANs will provide a snapshot of performance at a particular point in time, sparklines will provide a quick view of the trends overtime, as well as allow to us display the highest and lowest selling months. 
 
