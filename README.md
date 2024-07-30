@@ -303,71 +303,21 @@ The same process as the Sales Dashboard will be followed here too.
 
 ## Histogram and Weekly Trends for Sales and Top 10 Customers by Profit
 
-Whilst the Histogram was relatively straight forward to build, for the Top 10 Customers by Profit table required some extra calculated fields. 
+To show the customer distribution, since we are talking aboout two measures 1) Count of customers and 2) Count of orders, we have to use an LOD (level of detail) expression to generate the bins for the histogram and find the total number of orders for each customer for the current year. The LOD expression used is below.
 
-Specific requirements to be addressed:
-- Show weekly sales and profit for curent year and display the average weekly values.
-- Highlight the weeks that are above and below the average to draw attention to sales & profit performance.
+```
+{ FIXED [CY Customers]: COUNTD([CY Orders])}
 
+```
 
-In the line charts the weekyl sales and profit are displayed for the curent year, as well as the average weekly value with a reference line. We have not utilised a Dual Axis here as overlaying one line graph over the other will cause the reference the lines to be too close to each other making it hard to read, keeping the line graphs separate keeps the chart neat and easier to read. 
+For the Top Customers by Profit table, we used the INDEX() function to assign a rank to the rows. 
 
-The path in this chart could be kept as linear, which is absolutely fine, but we decided to change it up a little but making the chart a bit more interesting with a step path. 
-
-Now that we've finished our charts, we can now move onto arranging all these charts onto a dashboard.
 
 # Building Dashboard
 
-### Sizing:
-With the decision to use fixed sizing for dashboards, the next question is determining the optimal size. This largely depends on the display sizes that end users will use to view the dashboards. In many organisations, there is a standardised size for all dashboards, simplifying the design process as all end users have uniform screen sizes. However, in many cases, end users will view dashboards on various devices, ranging from laptop screens to desktop monitors and larger TV displays. Therefore, it is important to design dashboards in multiple sizes to accommodate these variations.
-
-The PowerPoint sizing option is particularly popular, as many organizations prefer to view and share dashboards as slides. For this project, we will use a custom fixed size of 1200 x 800. In practice, we would assess the screen sizes of end users and develop dashboards tailored to those dimensions. This doesn't mean creating an excessive number of dashboards; a 1200 x 800 dashboard, for instance, will suffice for screens of similar sizes. However, significant differences, such as viewing on smaller laptop screens or phones, will necessitate creating dashboards specifically designed for those smaller formats.
+The sizing and container structure will be exactly the same as the Sales Dashboard.
 
 
-### Containers:
-Layout containers could be said to be the ultimate love-hate relationship within Tableau. Whilst containers are great for several things like providing strucutre to your dashboard, assisting with alignment of elements, dynamic resizing and re-usable layouts, they can also be a pain to work with at times. However, if you use them correctly, they will serve you well. 
-
-For our task, we will utilise containers in a manner that minimises mess and the potential for the dashboard to break. The very first primary vertical container, which will hold all subsequent containers, will be floated, coordinates set to 0,0 and size set to the size of the dashboard which is 1200 x 800. By floating the first container which holds all subsequent containers, we will keep nested tiled containers from automatically appearing in the item hierarchy. Tiled containers add extra layers into the item hierarchy which makes it hard to track your containers and your item hierarchy confusing to read. This is not ideal for yourself, nor for others that may need to view the item hierarchy in the future. Keep the item hierarchy clean, we will also label all our containers so we know which container holds which elements and is for which purpose. Also, blank objects will be used as placeholders in our containers to help with inputting our elements into the correct container/correct position in the container. These blank objects become increasingly important when you've got multiple containers around each other and it becomes trickier to drag and drop elements in the correct position. 
-
-CONTAINERS
-
-Your item hierarchy should be looking like this. With tiled containers there would be extra layers which make it all confusing. 
-![image](https://github.com/user-attachments/assets/1f57a467-8359-4251-b97b-120ef7abbe90)
-![image](https://github.com/user-attachments/assets/698f2a3a-44c7-4c0b-b595-bf81ad913a60)
-All the contents in the containers have been distributed evenly. Some can be trickier like the navigation buttons at the top, so we had inserted them both inside a horizontal container and then distributed them evenly. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Customer Dashboard
-## Content Requirements
-KPI Overview:
-Display a summary of the total number of customers, total sales per customer and the total number of orders for the current and previous year. 
-Customer Trends
-- Present data for each KPI on a monthly basis for the current and previous year.
-- Identify the months with the highest and lowest sales, highlighting these mnths for easier recognition. 
-Customer Distribution by Number of Orders:
-- Provide a representation of the distribution of customers based on the number of orders placed in order to provide insights into customer behaviour, loyality and engagement. 
-Top 10 Customers by Profit:
-- Display the top 10 customers by profits generated in descending order.
-- Show additional information such as rank, number of orders, current sales, current profit and the last order date.
-## Design Requirements
-- The dashboard should allow the end user flexibiity to see historical data.
-- The dashboard should allow the end user to navigate between dashboards easily.
-- The charts should be interactive, allowing end users to filter data using the charts themselves.
-- The dashboard should allow end users to filter by category, subcategory and by location such as by region, state and city.
-## Plan to Meet Requirements
-The KPI Overview and Customer Trend requirements are very similar to the requirements for the Sales Dashboard above. Hence, the plan to meet these requirements will be exactly the same. BAN's will be used to display the KPI's whilst sparklines will be used to showcase customer trends overtime. 
-For customer distribution by number of orders, a histogram will be used. Histograms will help in understanding how many customers fall into the different ranges (bins) of the number of orders placed, providing a clear picture of the overall distribution. Additionally, the histogram will also allow the spotting of outliers or unusual data points that may indicate unique customer segements or behaviours. 
 
 
 
