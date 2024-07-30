@@ -217,22 +217,6 @@ After formatting and re-arranging the elements, below if the final version of th
 ![image](https://github.com/user-attachments/assets/11bad169-b104-41b2-ab20-9aa64c7eb4d3)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Analysis of Requirements
 
 ## Content Requirements
@@ -310,12 +294,18 @@ To show the customer distribution, since we are talking aboout two measures 1) C
 
 ```
 
-For the Top Customers by Profit table, we used the INDEX() function to assign a rank to the rows. 
+For the Top Customers by Profit table, we used the INDEX() function to assign a rank to the rows. The default table were also removed and replaced with custom headers using text objects within a horizontal container. 
 
 
 # Building Dashboard
 
-The sizing and container structure will be exactly the same as the Sales Dashboard.
+## Final Sales Dashboard
+
+The sizing and container structure will be exactly the same as the Sales Dashboard. The only primary differences between the two dashboard are the different charts, and the navigation buttons which turn white when active on that particular dashboard. 
+
+After formatting and re-arranging the elements, below if the final version of the Customers Dashboard.
+
+![image](https://github.com/user-attachments/assets/3a4c4d59-995c-4712-9922-f1a977306100)
 
 
 
