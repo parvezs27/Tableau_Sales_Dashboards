@@ -173,11 +173,11 @@ Top 10 Customers by Profit:
 
 The KPI Overview and Customer Trend requirements are very similar to the requirements for the Sales Dashboard above. Hence, the plan to meet these requirements will be exactly the same. BAN's will be used to display the KPI's whilst sparklines will be used to showcase customer trends overtime. 
 
+For customer distribution by number of orders, a histogram will be used. Histograms will help in understanding how many customers fall into the different ranges (bins) of the number of orders placed, providing a clear picture of the overall distribution. Additionally, the histogram will also allow the spotting of outliers or unusual data points that may indicate unique customer segements or behaviours. 
+
 For product subcategory comparison, if we were to be comparing subcategories only for the current year, then a regular vertical or horizontal bar chart sorted in descending order would be ideal. However since we have multiple dimensions (subcategory, current year, previous year) and one measure (sales performance), a bar-in-bar chart would be effective to display the product subcategory sales and profits by current and previous year. 
 
-Talking about bar charts, they are one of the most effective and flexible visualisations to use to communicate information quickly and clearly. There are several features of bar charts that allow for this including the length of the bars which allow for an easier comparison of values across different categories, the visual separation between bars which allows for clear distinction between categories and the ability to customise the chart with colours, labels and annotations to emphasise key information. 
-
-For weekly trends for sales and profits, since are looking at sales and profit data over time (current year) on a weekly basis, a line chart would be the ideal chart to use. 
+For top 10 customers by highest profit, a table will be used. Due to the amount of detail we have to display, a simple table with the metrics as columns and ranks as rows will provide a clear picture. 
 
 For dashboard interactivity, paramaters will be utilised to allow end users to see historical data, buttons will be used to allow end users to navigate between dashboards easily and filters will be used to allow filtering using charts and by location.
 
