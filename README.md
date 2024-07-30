@@ -1,30 +1,30 @@
 # Task Context
 
-We are working as Data Analysts for the retail company "Superstore", which sells furniture, office supplies and technology items. We have been tasked with developing two dashboards utilising Tableau to assist stakeholders, including sales managers and executives, to analyse sales performance and customers. Stakeholders would like a high level view of key metrics and to be able to analyse year-over-year sales performance. Additionally, stakeholders would like an overview of customer data, trends and behaviours, in order to assist management and marketing teams to understand customer segments and improve customer satisfaction.
+We are working as Data Analysts for the retail company "Superstore", which sells furniture, office supplies and technology items. We have been tasked with developing two dashboards using Tableau, to assist stakeholders including sales managers and executives, in analysing sales performance and customers. Stakeholders would like a high level view of key metrics and to be able to analyse year-over-year performance. Additionally, stakeholders would like to see an overview of customer data, trends and behaviours, in order to assist management and marketing teams to understand customer segments and improve customer satisfaction.
 
 To tackle this task, we will follow the plan below:
 
 ## Analyse Requirements
-- Collect and understand requirements
-- Select Charts
+- Collect and understand task requirements
+- Select optimal charts
 - Develop Mockups and Prototypes
 
 ## Build the Data Source
-- Connect Data
+- Connect data (clean the data if required)
 - Create a Data Model
-- Check Data Types and Understand the Data
+- Check data types and understand the data
 
 ## Build the Charts
-- Create and test Calculated Fields
-- Build Chart
-- Format
+- Create and test required calculated fields
+- Build charts
+- Format charts
   - Remove gridlines and other unnecessary lines
   - Clean up axes and headers
   - Choose colors and format tooltips
  
  ## Build the Dashboards
  - Build container structure
- - Input Charts
+ - Input charts
  - Format
    - Layout charts and elements in alignment by utilising functions such as "distribute contents evenly" and inner and outer padding. 
    - Utilise space by fitting to "entire view"
