@@ -16,7 +16,7 @@ To tackle this task, we will follow the plan below:
 
 ## Build the Charts
 - Create and test required calculated fields
-- Build charts
+- Build charts (ensure data is correct through testing/cross referencing with Excel)
 - Format charts
   - Remove gridlines and other unnecessary lines
   - Clean up axes and headers
@@ -28,15 +28,16 @@ To tackle this task, we will follow the plan below:
  - Format
    - Layout charts and elements in alignment by utilising functions such as "distribute contents evenly" and inner and outer padding. 
    - Utilise space by fitting to "entire view"
-   - Add relevent Legends
+   - Add relevent legends/colour keys
    - Add filters for interactivty
    - Add icons for navigation buttons
+- Test the dashboard
 
 # Sales Dashboard
 
 ## Content Requirements
 
-The below requirements for the Sales Dashboard have been provided to us by management.
+The requirements below for the Sales Dashboard have been provided to us by management.
 
 KPI Overview:
 - Display a high level overview of total sales, profits and quantity for the current and previous year.
