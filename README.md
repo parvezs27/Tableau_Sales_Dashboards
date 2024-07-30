@@ -330,3 +330,39 @@ The PowerPoint sizing option is particularly popular, as many organizations pref
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+# Customer Dashboard
+## Content Requirements
+KPI Overview:
+Display a summary of the total number of customers, total sales per customer and the total number of orders for the current and previous year. 
+Customer Trends
+- Present data for each KPI on a monthly basis for the current and previous year.
+- Identify the months with the highest and lowest sales, highlighting these mnths for easier recognition. 
+Customer Distribution by Number of Orders:
+- Provide a representation of the distribution of customers based on the number of orders placed in order to provide insights into customer behaviour, loyality and engagement. 
+Top 10 Customers by Profit:
+- Display the top 10 customers by profits generated in descending order.
+- Show additional information such as rank, number of orders, current sales, current profit and the last order date.
+## Design Requirements
+- The dashboard should allow the end user flexibiity to see historical data.
+- The dashboard should allow the end user to navigate between dashboards easily.
+- The charts should be interactive, allowing end users to filter data using the charts themselves.
+- The dashboard should allow end users to filter by category, subcategory and by location such as by region, state and city.
+## Plan to Meet Requirements
+The KPI Overview and Customer Trend requirements are very similar to the requirements for the Sales Dashboard above. Hence, the plan to meet these requirements will be exactly the same. BAN's will be used to display the KPI's whilst sparklines will be used to showcase customer trends overtime. 
+For customer distribution by number of orders, a histogram will be used. Histograms will help in understanding how many customers fall into the different ranges (bins) of the number of orders placed, providing a clear picture of the overall distribution. Additionally, the histogram will also allow the spotting of outliers or unusual data points that may indicate unique customer segements or behaviours. 
+
+
+
+
+
