@@ -36,8 +36,10 @@ To tackle this task, we will follow the plan below:
 
 ## Content Requirements
 
+The below requirements for the Sales Dashboard have been provided to us by management.
+
 KPI Overview:
-Display a high level overview of total sales, profits and quantity for the current and previous year.
+- Display a high level overview of total sales, profits and quantity for the current and previous year.
 
 Sales Trends:
 - Visualise data for each KPI on a monthly basis for the current and previous year.
@@ -52,12 +54,16 @@ Weekly Trends for Sales & Profits:
 
 ## Design Requirements
 
-- The dashboard should allow the end user flexibiity to see historical data.
-- The dashboard should allow the end user to navigate between dashboards easily.
+The Sales Dashboard should meet the following design requirements:
+
+- Allow the end user flexibiity to see historical data.
+- Allow the end user to navigate between dashboards easily.
 - The charts should be interactive, allowing end users to filter data using the charts themselves.
 - The dashboard should allow end users to filter by category, subcategory and by location such as by region, state and city.
 
 ## Plan to Meet Requirements
+
+Below is our plan to meet the content and design requirements:
 
 To display the KPI's we will utilise "BANs" (Big-Ass Numbers), which are simple and effective to clearly display key metrics on Tableau dashboards. 
 
