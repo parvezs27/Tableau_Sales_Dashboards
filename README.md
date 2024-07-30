@@ -33,7 +33,7 @@ To tackle this task, we will follow the plan below:
    - Add icons for navigation buttons
 - Test the dashboard
 
-# Analysis of Requirements
+# Analysis of Requirements (Sales Dashboard)
 
 ## Content Requirements
 
@@ -181,7 +181,7 @@ Now that we have finished our charts, we can now move onto arranging all these c
 
 # Building Dashboard
 
-### Sizing:
+## Sizing:
 Sizing dashboards in Tableau can be challenging due to several factors, including the commonly problematic default Tableau scaling, the varied display sizes of end users, and their default zoom levels in computer display settings. It is generally advisable to avoid using Tableau's automatic sizing function. Although automatic sizing may seem convenient, it often leads to issues such as misalignment of elements and improper scaling of floating versus non-floating elements. Additionally, automatically sized dashboards can result in slower performance on Tableau Server. This happens because the server tries to render the dashboard to fit the smallest common screen size among all users, leading to longer load times and potential site crashes.
 
 To mitigate these problems, it is recommended to use fixed-sized dashboards. Fixed-sized dashboards ensure that all elements remain properly aligned and maintain their intended positions. Moreover, when viewed on Tableau Server, fixed-sized dashboards tend to load faster as the server can utilize cached versions, improving overall performance and user experience.
@@ -190,9 +190,11 @@ With the decision to use fixed sizing for dashboards, the next question is deter
 
 The PowerPoint sizing option is particularly popular, as many organisations prefer to view and share dashboards as slides. For this project, we will use a custom fixed size of 1200 x 800. In practice, we would assess the screen sizes of end users and develop dashboards tailored to those dimensions. This doesn't mean creating an excessive number of dashboards; a 1200 x 800 dashboard, for instance, will be sufficient for screens of similar sizes. However, where thare are significant differences, such as viewing on smaller laptop screens or phones, will necessitate creating dashboards specifically designed for those smaller formats.
 
-### Container Structure
+## Containers:
 
-Tableau layout containers are fantastic tools to use to help structure and organise your dashboard. They allow the grouping of elements, which helps with alignment and resizing the elements all at once. Tableau's default container preference is to use "Tiled" containers, whilst they're easy to use, they can get quite messy as they tend to create unnecessary layers within the item hierarchy. , compare to containers it is much cleaner and easier to read. Floating the first vertical container keeps nested tiled container from automatically appearing. It makes the dashboard easier to organise and it will scale when changing the ssize of the dashboard. Naming the containers also help with organisation and helping other users with understanding the contents of the dashboard. Blanks will be added to containers as placeholders and colored to see where they are. 
+Layout containers could be said to be the ultimate love-hate relationship within Tableau. Whilst containers are great for several things like providing strucutre to your dashboard, assisting with alignment of elements, dynamic resizing and re-usable layouts, they can also be a pain to work with at times. However, if you use them correctly, they will serve you well. 
+
+For our task, we will utilise containers in a manner that minimises mess and the potential for the dashboard to break. The very first primary vertical container, which will hold all subsequent containers, will be floated, coordinates set to 0,0 and size set to the size of the dashboard which is 1200 x 800. By floating the first container which holds all subsequent containers, we will keep nested tiled containers from automatically appearing in the item hierarchy. Tiled containers add extra layers into the item hierarchy which makes it hard to track your containers and your item hierarchy confusing to read. This is not ideal for yourself, nor for others that may need to view the item hierarchy in the future. Keep the item hierarchy clean, we will also label all our containers so we know which container holds which elements and is for which purpose. Also, blank objects will be used as placeholders in our containers to help with inputting our elements into the correct container/correct position in the container. These blank objects become increasingly important when you've got multiple containers around each other and it becomes trickier to drag and drop elements in the correct position. 
 
 Our item hierarchy is looking like this so far. If we had used tiled containers there would be several "tiled" layers in the item hierarchy, causing confusion. 
 
@@ -203,7 +205,27 @@ Our item hierarchy is looking like this so far. If we had used tiled containers 
 ![image](https://github.com/user-attachments/assets/698f2a3a-44c7-4c0b-b595-bf81ad913a60)
 *Image 7. Item Hierarchy 2*
 
-All the contents in the containers have been distributed evenly. Some can be trickier like the navigation buttons at the top, so we had inserted them both inside a horizontal container and then distributed them evenly. 
+Here is the final container structure below. Our primary floating vertical container has the orange border, whilst the 3 horizontal containers within this container are shaded blue. 
+
+![image](https://github.com/user-attachments/assets/132ea26b-8cd0-4097-9a07-e2d421d1ecaf)
+*Image 8. Container Structure*
+
+## Final Sales Dashboard
+
+After formatting and re-arranging the elements, below if the final version of the Sales Dashboard.
+
+![image](https://github.com/user-attachments/assets/11bad169-b104-41b2-ab20-9aa64c7eb4d3)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
