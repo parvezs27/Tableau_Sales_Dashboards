@@ -194,10 +194,14 @@ The PowerPoint sizing option is particularly popular, as many organisations pref
 
 Tableau layout containers are fantastic tools to use to help structure and organise your dashboard. They allow the grouping of elements, which helps with alignment and resizing the elements all at once. Tableau's default container preference is to use "Tiled" containers, whilst they're easy to use, they can get quite messy as they tend to create unnecessary layers within the item hierarchy. , compare to containers it is much cleaner and easier to read. Floating the first vertical container keeps nested tiled container from automatically appearing. It makes the dashboard easier to organise and it will scale when changing the ssize of the dashboard. Naming the containers also help with organisation and helping other users with understanding the contents of the dashboard. Blanks will be added to containers as placeholders and colored to see where they are. 
 
-Your item hierarchy should be looking like this. With tiled containers there would be extra layers which make it all confusing. 
+Our item hierarchy is looking like this so far. If we had used tiled containers there would be several "tiled" layers in the item hierarchy, causing confusion. 
 
 ![image](https://github.com/user-attachments/assets/1f57a467-8359-4251-b97b-120ef7abbe90)
+*Image 6. Item Hierarchy 1*
+
+
 ![image](https://github.com/user-attachments/assets/698f2a3a-44c7-4c0b-b595-bf81ad913a60)
+*Image 7. Item Hierarchy 2*
 
 All the contents in the containers have been distributed evenly. Some can be trickier like the navigation buttons at the top, so we had inserted them both inside a horizontal container and then distributed them evenly. 
 
