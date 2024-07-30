@@ -319,15 +319,22 @@ Now that we've finished our charts, we can now move onto arranging all these cha
 # Building Dashboard
 
 ### Sizing:
-With the decision to use fixed sizing for dashboards, the next question is determining the optimal size. This largely depends on the display sizes that end users will use to view the dashboards. In many organizations, there is a standardized size for all dashboards, simplifying the design process as all end users have uniform screen sizes. However, in many cases, end users will view dashboards on various devices, ranging from laptop screens to desktop monitors and larger TV displays. Therefore, it is important to design dashboards in multiple sizes to accommodate these variations.
+With the decision to use fixed sizing for dashboards, the next question is determining the optimal size. This largely depends on the display sizes that end users will use to view the dashboards. In many organisations, there is a standardised size for all dashboards, simplifying the design process as all end users have uniform screen sizes. However, in many cases, end users will view dashboards on various devices, ranging from laptop screens to desktop monitors and larger TV displays. Therefore, it is important to design dashboards in multiple sizes to accommodate these variations.
 
 The PowerPoint sizing option is particularly popular, as many organizations prefer to view and share dashboards as slides. For this project, we will use a custom fixed size of 1200 x 800. In practice, we would assess the screen sizes of end users and develop dashboards tailored to those dimensions. This doesn't mean creating an excessive number of dashboards; a 1200 x 800 dashboard, for instance, will suffice for screens of similar sizes. However, significant differences, such as viewing on smaller laptop screens or phones, will necessitate creating dashboards specifically designed for those smaller formats.
 
 
 ### Containers:
+Layout containers could be said to be the ultimate love-hate relationship within Tableau. Whilst containers are great for several things like providing strucutre to your dashboard, assisting with alignment of elements, dynamic resizing and re-usable layouts, they can also be a pain to work with at times. However, if you use them correctly, they will serve you well. 
 
+For our task, we will utilise containers in a manner that minimises mess and the potential for the dashboard to break. The very first primary vertical container, which will hold all subsequent containers, will be floated, coordinates set to 0,0 and size set to the size of the dashboard which is 1200 x 800. By floating the first container which holds all subsequent containers, we will keep nested tiled containers from automatically appearing in the item hierarchy. Tiled containers add extra layers into the item hierarchy which makes it hard to track your containers and your item hierarchy confusing to read. This is not ideal for yourself, nor for others that may need to view the item hierarchy in the future. Keep the item hierarchy clean, we will also label all our containers so we know which container holds which elements and is for which purpose. Also, blank objects will be used as placeholders in our containers to help with inputting our elements into the correct container/correct position in the container. These blank objects become increasingly important when you've got multiple containers around each other and it becomes trickier to drag and drop elements in the correct position. 
 
+CONTAINERS
 
+Your item hierarchy should be looking like this. With tiled containers there would be extra layers which make it all confusing. 
+![image](https://github.com/user-attachments/assets/1f57a467-8359-4251-b97b-120ef7abbe90)
+![image](https://github.com/user-attachments/assets/698f2a3a-44c7-4c0b-b595-bf81ad913a60)
+All the contents in the containers have been distributed evenly. Some can be trickier like the navigation buttons at the top, so we had inserted them both inside a horizontal container and then distributed them evenly. 
 
 
 
