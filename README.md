@@ -107,24 +107,23 @@ Now that we have a plan for addressing the requirements, we'll go ahead and crea
 
 ## Mockup
 
-We have used Figma to create a mockup of our dashboard, link below:
+We have used Figma to create a mockup of our Sales dashboard, link below:
 https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1
 
-Figma is a great tool to use to prototype your dashboards due to it's features and ease of use. In our mockup, we have opted for a clear, uncluttered and minimalist design, by using simple charts, utilising white space and conservative use of colouring (4-5 key colours).
+Figma is a great tool to use to prototype your dashboards due to it's features and ease of use. In our mockup, we have opted for a clear, uncluttered and minimalist design, by using simple charts, utilising white space and conservative use of colouring (4-5 key colours). The Customers Dashboard will follow a very similar structure to the Sales dashboard.
 
 ## Data Source Preparation
 
-We will start by building our data model. It's important to understand the data here and see which tables are dimensions and which table are facts. The Customers, Location and Products tables are dimension tables, as the information in these tables contain categorical data that provide context to measures. The Orders table is a fact table as it contains transactions which are measurable business events. 
+We will start by building our data model. It's important to understand the data we have and to see which tables are dimensions and which table are facts. The Customers, Location and Products tables are dimension tables, as the information in these tables contain categorical data that provide context to measures. The Orders table is a fact table, as it contains transactions which are measurable business events. 
 
-Now that we understand our data we can start modeling. We will create a relation between each dimension table and the fact table, as below. You can think of as one fact table and all the dimension tables are connected to this fact table to describe the facts. 
+Now that we understand our data we can start modeling this data for our use. We will create a relation between each dimension table and the fact table as below. You can think of this model as one fact table, and all the dimension tables are connected to this one fact table to describe the facts. 
 
 ![image](https://github.com/user-attachments/assets/01543540-1e77-4a9b-933c-ab27c0bb1a9e)
+*Image 1. Data Model* 
 
-Now we'll go ahead and check our data types to ensure that Tableau has interpreted and processed the data correctly. It's not uncommon for Tableau to misinterpet the data, hence why it's important to do a manual check yourself. Potential misinterpretations by Tableau may include interpreting Dates as Strings, which in doing so won't allow looking at the data in relation to time, or numbers as strings, which won't allow us to perform mathematical operations like sum, average or percentage calculations. Upon checking we can see all the data types are correct in our data. Text columns like Product Name have the string data type, numerical columns like Profit have the number data type, date columns have the date data type and location columns have the geographic data type.  
+Now we will go ahead and check the data types to ensure that Tableau has interpreted and processed the data correctly. It's not uncommon for Tableau to misinterpet the data, hence why it's important to do a manual check. Potential misinterpretations by Tableau may include interpreting Dates as Strings, which won't allow us to analyse the data in relation to time. Additioanlly, numbers can be interpreted as strings, if this happens, we won't be allowed to perform mathematical operations like sum, average or percentage calculations. Upon checking our data, we can see all the data types are correct in our data. Text columns like Product Name have the string data type, numerical columns like Profit have the number data type, date columns have the date data type and location columns have the geographic data type.  
 
-By now it's a good idea to explore the data and become familiar with the structure of it, so you don't have to do a whole lot of figuring out during your visualisation building. 
-
-Now that we've analysed our requirements, created a mockup and built our data source, we can move onto the fun part and start developing our visualisations. 
+Now that we've analysed our requirements, created a mockup and built our data source, we can move onto the exciting part and start developing our visualisations. 
 
 # Building Charts
 
