@@ -152,25 +152,31 @@ After formatting, below are our final KPI charts:
 ![image](https://github.com/user-attachments/assets/96c598a4-2d34-4254-b07c-514071f72022)
 *Image 3. KPI Charts*
 
+The BAN's clearly depict the KPI value, the percent difference is shown between the current and previous year as well sa the sparklines to depict the difference in trends between the years. Axes, tick marks, titles, gridlines and the names of other months have been omitted to reduce cluttering and distraction. 
 
+## Bar in Bar Charts
 
-## Subcategory Comparison
+Key points regarding the creation of the Bar in Bar Charts:
 
-Specific requirements to be addressed:
-- Compare the sales and profit for the different product subcategories for the current and previous year, including a comparison of sales with profit.
+- A calculated field was created "KPI CY Less PY", which shows dots on the subcategories where current year sales were below previous year sales.
 
-A calculated field has been created to show dots on the subcategories where current year sales were below previous year sales. 
+After formatting, below are our bar in bar, and bar charts:
 
-## Weekly Trends for Sales and Profit
+![image](https://github.com/user-attachments/assets/5a976db4-2e12-45eb-9835-90729b0b92d3)
+*Image 4. Bar in Bar, and Bar Charts*
 
-Specific requirements to be addressed:
-- Show weekly sales and profit for curent year and display the average weekly values.
-- Highlight the weeks that are above and below the average to draw attention to sales & profit performance.
+## Step Line Charts
 
+Key points regarding the creation of the Step Line Charts:
 
-In the line charts the weekyl sales and profit are displayed for the curent year, as well as the average weekly value with a reference line. We have not utilised a Dual Axis here as overlaying one line graph over the other will cause the reference the lines to be too close to each other making it hard to read, keeping the line graphs separate keeps the chart neat and easier to read. 
+- Weekly sales and weekly profit charts are displayed for the curent year, as well as the average weekly value with a reference line. Dual Axis has not been used, as overlaying one line graph over the other will cause the reference lines to be in too close proximity with each other making it hard to read.
+- Orange denotes weeks/time periods below the average weekly value for that year, whereas blue denotes weeks/time periods above the average weekly value for that year.
 
-The path in this chart could be kept as linear, which is absolutely fine, but we decided to change it up a little but making the chart a bit more interesting with a step path. 
+After formatting, below are our step line charts:
+
+![image](https://github.com/user-attachments/assets/2a5624ce-0650-4c02-a37b-c868b3fc3826)
+*Image 5. Step Line Charts*
+
 
 Now that we've finished our charts, we can now move onto arranging all these charts onto a dashboard.
 
