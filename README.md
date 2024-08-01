@@ -110,6 +110,7 @@ Now that we have a plan for addressing the requirements, we'll go ahead and crea
 ## Mockup
 
 We have used Figma to create a mockup of our Sales dashboard, link below:
+
 https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1
 
 Figma is a great tool to use to prototype your dashboards due to it's features and ease of use. In our mockup, we have opted for a clear, uncluttered and minimalist design, by using simple charts, utilising white space and conservative use of colouring (4-5 key colours). The Customers Dashboard will follow a very similar structure to the Sales dashboard.
