@@ -4,8 +4,9 @@ We are working as Data Analysts for the retail company "Superstore", which sells
 
 To tackle this task, we will follow the plan below:
 
-## Analyse Requirements
+## Analyse Requirements & Documentation
 - Collect and understand task requirements
+- Create project documentation (project purpose, instructions, version control etc.)
 - Select optimal charts
 - Develop Mockups and Prototypes
 
