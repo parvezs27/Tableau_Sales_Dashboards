@@ -34,7 +34,7 @@ To tackle this task, we will follow the plan below:
    - Add icons for navigation buttons
 - Test the dashboard
 
-The documentation for this dashboard will be kept in a separate file. Embedding documentation within a Tableau dashboard can create several issues. It consumes space, which in turn reduces space for visualisations and other elements. Frequent updates become cumbersome as they require republishing the entire dashboard, and managing version control becomes challenging. User experience can suffer due to navigation difficulties and limited flexibility in accessing documentation. Additionally, extensive embedded documentation can negatively impact load times and overall dashboard performance. Therefore, keeping documentation separate is ideal for efficiency and a better user experience.
+The documentation for this dashboard will be kept in a separate file. Dashboard documentation should be kept outside of the dashboard rather than embedding inside. Embedding documentation within a Tableau dashboard can create several issues. It consumes space, which in turn reduces space for visualisations and other elements. Frequent updates become cumbersome as they require republishing the entire dashboard, and managing version control becomes challenging. User experience can be negatively impaceted due to navigation difficulties and limited flexibility in accessing documentation. Additionally, extensive embedded documentation can negatively impact load times and overall dashboard performance. Therefore, keeping documentation separate is ideal for efficiency and a better user experience.
 
 # Analysis of Requirements (Sales Dashboard)
 
@@ -75,7 +75,7 @@ Below is our plan to meet the content and design requirements.
 
 To display the KPI's, we will utilise "BANs" (Big-Ass Numbers). BAN's display key metrics or KPI's in a large, bold format. This offers several benefits, such as:
 - Quicker, clearer and easier noticeability of key information. The larger and bolder text has more of a direct impact, allowing critical information to be seen quickly and clearly. This reduces cognitive load on the viewer and having to search around the screen for the key information, ultimately allowing for a better viewing experience.
-- Improvement of dashboard structure and reading flow. Having large and bold text at the top of the dashboard to highlight critical information creates a top to bottom visual hierarchy, where the most information is highlighted at the top. This provides dashboard structure and a logical reading flow for the end user.
+- Improvement of dashboard structure and reading flow. Having large and bold text at the top of the dashboard to highlight critical information creates a top to bottom visual hierarchy, where the most important information is highlighted at the top. This provides dashboard structure and a logical reading flow for the end user.
 
 **Sales Trends:**
 
@@ -87,7 +87,7 @@ Since we are required to visualise A) Sales Trends and B) the data for each KPI 
 **Comparison of product subcategories:**
 - **Compare the sales and profit of the different product subcategories for the current and previous year, including a comparison of sales with profit.**
 
-For the comparison of product subcategories, if we were to be comparing subcategories only for the current year, then a regular vertical or horizontal bar chart would be an good choice. However, since we have multiple dimensions (subcategory, current year, previous year) and one measure (sales performance), a bar-in-bar chart would be an ideal chart to display the product subcategory sales and profits by current and previous year. 
+For the comparison of product subcategories, if we were to be comparing subcategories only for the current year, then a regular vertical or horizontal bar chart would be fine. However, since we have multiple dimensions (subcategory, current year, previous year), and one measure (sales performance), a bar-in-bar chart would be an ideal chart to display the product subcategory sales and profits by current and previous year. 
 
 Talking about bar charts, they are one of the most commonly used and effective visualisations to communicate information quickly and clearly. There are several features of bar charts that allow for this including the length of the bars which provide an easier comparison of values across different categories, the visual separation between bars which allows for clear distinction between categories and the ability to customise the chart with colours, labels and annotations to emphasise key information.
 
@@ -104,17 +104,17 @@ For weekly trends for sales and profits, since we are looking at sales and profi
 - Charts should be interactive, allowing end users to filter data using the charts themselves.
 - The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
 
-Paramaters will be utilised to allow end users to view historical data for previous years. Filters will be utilised to allow end users to filter using charts and to filter by category, subcategory and location. Finally, navigation buttons will be included allowing navigation between dashboards.
+Parameters will be utilised to allow end users to view historical data for previous years. Filters will be used to allow end users to filter using charts and to filter by category, subcategory and location. Finally, navigation buttons will be included allowing navigation between dashboards.
 
 Now that we have a plan for addressing the requirements, we'll go ahead and create a mockup dashboard.
 
 ## Mockup
 
-We have used Figma to create a mockup of our Sales dashboard, link below:
+We have used Figma to create a mockup/wireframe of our Sales dashboard, link below:
 
 https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1
 
-Figma is a great tool to use to prototype your dashboards due to it's features and ease of use. In our mockup, we have opted for a clear, uncluttered and minimalist design, by using simple charts, utilising white space and conservative use of colouring (4-5 key colours). The Customers Dashboard will follow a very similar structure to the Sales dashboard.
+Figma is a great tool to use to prototype your dashboards due to it's features and ease of use. In our mockup, we have opted for a clear, uncluttered and minimalist design, by using simple charts, utilising white space and conservative use of colouring (4-5 key colours). The Customers Dashboard will also follow a very similar structure to the Sales dashboard.
 
 # Data Source Preparation
 
@@ -123,7 +123,6 @@ We will start by building our data model. It's important to understand the data 
 Now that we understand our data we can start modeling this data for our use. We will create a relation between each dimension table and the fact table as below. You can think of this model as one fact table, and all the dimension tables are connected to this one fact table to describe the facts. 
 
 ![image](https://github.com/user-attachments/assets/01543540-1e77-4a9b-933c-ab27c0bb1a9e)
-
 *Image 1. Data Model* 
 
 Now we will go ahead and check the data types to ensure that Tableau has interpreted and processed the data correctly. It's not uncommon for Tableau to misinterpet the data, hence why it's important to do a manual check. Potential misinterpretations by Tableau may include interpreting Dates as Strings, which won't allow us to analyse the data in relation to time. Additioanlly, numbers can be interpreted as strings, if this happens, we won't be allowed to perform mathematical operations like sum, average or percentage calculations. Upon checking our data, we can see all the data types are correct in our data. Text columns like Product Name have the string data type, numerical columns like Profit have the number data type, date columns have the date data type and location columns have the geographic data type.  
