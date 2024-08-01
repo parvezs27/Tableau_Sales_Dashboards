@@ -125,7 +125,7 @@ Now that we understand our data we can start modeling this data for our use. We 
 ![image](https://github.com/user-attachments/assets/01543540-1e77-4a9b-933c-ab27c0bb1a9e)
 *Image 1. Data Model* 
 
-Now we will go ahead and check the data types to ensure that Tableau has interpreted and processed the data correctly. It's not uncommon for Tableau to misinterpet the data, hence why it's important to do a manual check. Potential misinterpretations by Tableau may include interpreting Dates as Strings, which won't allow us to analyse the data in relation to time. Additioanlly, numbers can be interpreted as strings, if this happens, we won't be allowed to perform mathematical operations like sum, average or percentage calculations. Upon checking our data, we can see all the data types are correct in our data. Text columns like Product Name have the string data type, numerical columns like Profit have the number data type, date columns have the date data type and location columns have the geographic data type.  
+Now we will go ahead and check the data types to ensure that Tableau has interpreted and processed the data correctly. It's not uncommon for Tableau to misinterpet the data, hence why it's important to do a manual check. Potential misinterpretations by Tableau may include interpreting Dates as Strings, which won't allow us to analyse the data in relation to time. Additionally, numbers can be interpreted as strings, if this happens, we won't be allowed to perform mathematical operations like sum, average or percentage calculations. Upon checking our data, we can see all the data types are correct. Text columns like Product Name have the string data type, numerical columns like Profit have the number data type, date columns have the date data type and location columns have the geographic data type.  
 
 Now that we've analysed our requirements, created a mockup and built our data source, we can move onto the exciting part and start developing our visualisations. 
 
@@ -143,7 +143,7 @@ Key points regarding the creation of BANs:
 - A parameter was created and linked to the calculated fields for current and previous year metrics, to allow dynamic year selection.
 - Calculated fields were also created for the % difference between the current and previous years metrics.
 - The custom format "▲ 0.0%; ▼ -0.0%" was implemented for the % difference between current and previous year metrics, where the up arrow denotes a positive percent difference and the down arrow denotes a negative percent difference.
-- The values of the metrics were validated for all years with Excel. Sometimes Tableau can misinterpret values and misconstrue aggregations. Which is why it's a good idea to double check the values outside of Tableau. In Image 2, we can see that the aggregation for the metrics for the year 2021 are correct. 
+- The values of the metrics were validated for all years with Excel. Sometimes Tableau can misinterpret values and misconstrue aggregations, which is why it's a good idea to double check the values outside of Tableau. In Image 2, we can see that the aggregation for the metrics for the year 2021 are correct. 
 
 ## Sparklines
 
@@ -154,21 +154,19 @@ Key points regarding the creation of the Sparklines:
 After formatting, below are our final KPI charts:
 
 ![image](https://github.com/user-attachments/assets/96c598a4-2d34-4254-b07c-514071f72022)
-
 *Image 3. KPI Charts*
 
-The BAN's clearly depict the KPI value, the percent difference is shown between the current and previous year as well sa the sparklines to depict the difference in trends between the years. Axes, tick marks, titles, gridlines and the names of other months have been omitted to reduce cluttering and distraction. 
+The BAN's clearly depict the KPI value, the percent difference is shown between the current and previous year as well as the sparklines to depict the difference in trends between the years. Axes, tick marks, titles, gridlines and the names of other months have been omitted to reduce cluttering and distraction. 
 
 ## Bar in Bar Charts
 
 Key points regarding the creation of the Bar in Bar Charts:
 
-- A calculated field was created "KPI CY Less PY", which shows dots on the subcategories where current year sales were below previous year sales.
+- A calculated field was created "KPI CY Less PY", which displays dots on the subcategories where current year sales were below previous year sales.
 
 After formatting, below are our bar in bar, and bar charts:
 
 ![image](https://github.com/user-attachments/assets/5a976db4-2e12-45eb-9835-90729b0b92d3)
-
 *Image 4. Bar in Bar, and Bar Charts*
 
 ## Step Line Charts
@@ -181,7 +179,6 @@ Key points regarding the creation of the Step Line Charts:
 After formatting, below are our step line charts:
 
 ![image](https://github.com/user-attachments/assets/2a5624ce-0650-4c02-a37b-c868b3fc3826)
-
 *Image 5. Step Line Charts*
 
 Now that we have finished our charts, we can now move onto arranging all these charts into the Sales dashboard.
