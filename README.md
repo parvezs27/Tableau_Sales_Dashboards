@@ -70,7 +70,7 @@ Below is our plan to meet the content and design requirements.
 
 **KPI Overview:**
 
-** - Display a high level overview of total sales, profits and quantity for the current and previous year.**
+- **Display a high level overview of total sales, profits and quantity for the current and previous year.**
 
 To display the KPI's, we will utilise "BANs" (Big-Ass Numbers). BAN's display key metrics or KPI's in a large, bold format. This offers several benefits, such as:
 - Quicker, clearer and easier noticeability of key information. The larger and bolder text has more of a direct impact, allowing critical information to be seen quickly and clearly. This reduces cognitive load on the viewer and having to search around the screen for the key information, ultimately allowing for a better viewing experience.
@@ -78,21 +78,21 @@ To display the KPI's, we will utilise "BANs" (Big-Ass Numbers). BAN's display ke
 
 **Sales Trends:**
 
-** - Visualise data for each KPI on a monthly basis for the current and previous year.**
-** - Highlight the months with the highest and lowest sales and make them easily recognisable.**
+- **Visualise data for each KPI on a monthly basis for the current and previous year.**
+- **Highlight the months with the highest and lowest sales and make them easily recognisable.**
 
 Since we are required to visualise A) Sales Trends and B) the data for each KPI on a monthly basis for current and previous years, we will use sparklines to achieve this. Sparklines are smaller and simpler line chart without axes and coordinates used to show trends overtime in an uncluttered way. For our task, they will complement the BAN's well, as the BAN's will provide a snapshot of key metrics at a particular point in time, whilst the sparklines will provide the trends overtime for current and previous years (2 lines), providing more context. We will also be able to highlight the highest and lowest selling months on the sparklines. 
 
 **Comparison of product subcategories:**
-** - Compare the sales and profit of the different product subcategories for the current and previous year, including a comparison of sales with profit.**
+- **Compare the sales and profit of the different product subcategories for the current and previous year, including a comparison of sales with profit.**
 
 For the comparison of product subcategories, if we were to be comparing subcategories only for the current year, then a regular vertical or horizontal bar chart would be an good choice. However, since we have multiple dimensions (subcategory, current year, previous year) and one measure (sales performance), a bar-in-bar chart would be an ideal chart to display the product subcategory sales and profits by current and previous year. 
 
 Talking about bar charts, they are one of the most commonly used and effective visualisations to communicate information quickly and clearly. There are several features of bar charts that allow for this including the length of the bars which provide an easier comparison of values across different categories, the visual separation between bars which allows for clear distinction between categories and the ability to customise the chart with colours, labels and annotations to emphasise key information.
 
 **Weekly Trends for Sales & Profits:**
-**- Show the weekly sales and profit for the current year and display the average weekly sales and profit values.**
-** - Highlight the weeks that are above and below the average values.**
+- ** Show the weekly sales and profit for the current year and display the average weekly sales and profit values.**
+- ** Highlight the weeks that are above and below the average values.**
 
 For weekly trends for sales and profits, since we are looking at sales and profit data over time on a weekly basis, a line chart would be a good choice chere. The path of the chart can be customised from a linear path to a step path for example. Line charts with a linear path use straight lines between data points, implying a constant rate of change from one data point to the next, which may not always be true. Step line charts can be an effective way to display a more accurate depiciton of the change between data points by showing how long the value at a specific data point lasts or how large a change is between data points. 
 
