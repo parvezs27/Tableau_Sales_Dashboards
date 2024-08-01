@@ -122,6 +122,7 @@ We will start by building our data model. It's important to understand the data 
 Now that we understand our data we can start modeling this data for our use. We will create a relation between each dimension table and the fact table as below. You can think of this model as one fact table, and all the dimension tables are connected to this one fact table to describe the facts. 
 
 ![image](https://github.com/user-attachments/assets/01543540-1e77-4a9b-933c-ab27c0bb1a9e)
+
 *Image 1. Data Model* 
 
 Now we will go ahead and check the data types to ensure that Tableau has interpreted and processed the data correctly. It's not uncommon for Tableau to misinterpet the data, hence why it's important to do a manual check. Potential misinterpretations by Tableau may include interpreting Dates as Strings, which won't allow us to analyse the data in relation to time. Additioanlly, numbers can be interpreted as strings, if this happens, we won't be allowed to perform mathematical operations like sum, average or percentage calculations. Upon checking our data, we can see all the data types are correct in our data. Text columns like Product Name have the string data type, numerical columns like Profit have the number data type, date columns have the date data type and location columns have the geographic data type.  
@@ -153,6 +154,7 @@ Key points regarding the creation of the Sparklines:
 After formatting, below are our final KPI charts:
 
 ![image](https://github.com/user-attachments/assets/96c598a4-2d34-4254-b07c-514071f72022)
+
 *Image 3. KPI Charts*
 
 The BAN's clearly depict the KPI value, the percent difference is shown between the current and previous year as well sa the sparklines to depict the difference in trends between the years. Axes, tick marks, titles, gridlines and the names of other months have been omitted to reduce cluttering and distraction. 
@@ -166,6 +168,7 @@ Key points regarding the creation of the Bar in Bar Charts:
 After formatting, below are our bar in bar, and bar charts:
 
 ![image](https://github.com/user-attachments/assets/5a976db4-2e12-45eb-9835-90729b0b92d3)
+
 *Image 4. Bar in Bar, and Bar Charts*
 
 ## Step Line Charts
@@ -178,6 +181,7 @@ Key points regarding the creation of the Step Line Charts:
 After formatting, below are our step line charts:
 
 ![image](https://github.com/user-attachments/assets/2a5624ce-0650-4c02-a37b-c868b3fc3826)
+
 *Image 5. Step Line Charts*
 
 Now that we have finished our charts, we can now move onto arranging all these charts into the Sales dashboard.
@@ -202,15 +206,18 @@ For our task, we will utilise containers in a manner that minimises mess and the
 Our item hierarchy is looking like this so far. If we had used tiled containers there would be several "tiled" layers in the item hierarchy, causing confusion. 
 
 ![image](https://github.com/user-attachments/assets/1f57a467-8359-4251-b97b-120ef7abbe90)
+
 *Image 6. Item Hierarchy 1*
 
 
 ![image](https://github.com/user-attachments/assets/698f2a3a-44c7-4c0b-b595-bf81ad913a60)
+
 *Image 7. Item Hierarchy 2*
 
 Here is the final container structure below. Our primary floating vertical container has the orange border, whilst the 3 horizontal containers within this container are shaded blue. 
 
 ![image](https://github.com/user-attachments/assets/132ea26b-8cd0-4097-9a07-e2d421d1ecaf)
+
 *Image 8. Container Structure*
 
 ## Final Sales Dashboard
