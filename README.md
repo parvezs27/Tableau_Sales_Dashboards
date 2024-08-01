@@ -16,7 +16,7 @@ To tackle this task, we will follow the plan below:
 
 ## Build the Charts
 - Create and test required calculated fields
-- Build charts (ensure data is correct through testing/cross referencing with Excel)
+- Build charts (ensure data is correct through testing/validating with Excel)
 - Format charts
   - Remove gridlines and other unnecessary lines
   - Clean up axes and headers
@@ -136,14 +136,14 @@ We will now go ahead and create our BANs, as below:
 
 ![image](https://github.com/user-attachments/assets/68d27ea2-67ff-45b1-88e6-6c7e84ec5677)
 
-*Image 2: BANs - KPI values cross-referenced with Excel*
+*Image 2: BANs - KPI values validated with Excel*
 
 Key points regarding the creation of BANs:
 - Calculated fields were created for current year, previous year and the difference between current and previous year. 
 - A parameter was created and linked to the calculated fields for current and previous year metrics, to allow dynamic year selection.
 - Calculated fields were also created for the % difference between the current and previous years metrics.
 - The custom format "▲ 0.0%; ▼ -0.0%" was implemented for the % difference between current and previous year metrics, where the up arrow denotes a positive percent difference and the down arrow denotes a negative percent difference.
-- The values of the metrics were cross referenced for all years against Excel. Sometimes Tableau can misinterpret values and misconstrue aggregations. Which is why it's a good idea to double check the values outside of Tableau. In Image 2, we can see that the aggregation for the metrics for the year 2021 are correct. 
+- The values of the metrics were validated for all years with Excel. Sometimes Tableau can misinterpret values and misconstrue aggregations. Which is why it's a good idea to double check the values outside of Tableau. In Image 2, we can see that the aggregation for the metrics for the year 2021 are correct. 
 
 ## Sparklines
 
