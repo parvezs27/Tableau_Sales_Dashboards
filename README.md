@@ -231,18 +231,18 @@ After formatting and re-arranging the elements, below is the final version of th
 
 The requirements below for the Customers Dashboard have also been provided to us by management:
 
-KPI Overview:
+**KPI Overview:**
 
 - Display a high level view of the total number of customers, total sales per customer and the total number of orders for the current and previous years.
 
-Customer Trends
+**Customer Trends:**
 - Present data for each KPI on a monthly basis for the current and previous year.
 - Identify the months with the highest and lowest sales, highlighting these months for easier recognition. 
 
-Customer Distribution by Number of Orders:
+**Customer Distribution by Number of Orders:**
 - Provide a representation of the distribution of customers based on the number of orders placed to provide insights into customer behaviour, loyality and engagement. 
 
-Top 10 Customers by Profit:
+**Top 10 Customers by Profit:**
 - Display the top 10 customers by profits in descending order.
 - Show additional information such as rank, number of orders, current sales, current profit and the last order date.
 
@@ -261,7 +261,7 @@ Below is our plan to meet the content and design requirements.
 
 - **Display a high level view of the total number of customers, total sales per customer and the total number of orders for the current and previous years.**
 
-**Customer Trends**
+**Customer Trends:**
 - **Present data for each KPI on a monthly basis for the current and previous year.**
 - **Identify the months with the highest and lowest sales, highlighting these months for easier recognition.**
 
