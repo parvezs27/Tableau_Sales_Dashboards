@@ -224,6 +224,8 @@ After formatting and re-arranging the elements, below is the final version of th
 
 ![image](https://github.com/user-attachments/assets/11bad169-b104-41b2-ab20-9aa64c7eb4d3)
 
+*Image 9. Sales Dashboard*
+
 
 # Analysis of Requirements (Customers Dashboard)
 
@@ -314,6 +316,8 @@ The sizing and container structure will be exactly the same as the Sales Dashboa
 After formatting and re-arranging the elements, below is the final version of the Customers Dashboard.
 
 ![image](https://github.com/user-attachments/assets/3a4c4d59-995c-4712-9922-f1a977306100)
+
+*Image 10. Customers Dashboard*
 
 
 
