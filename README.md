@@ -234,7 +234,8 @@ After formatting and re-arranging the elements, below is the final version of th
 
 *Image 10. Sales Dashboard 2*
 
-K
+Key points regarding the Sales Dashboard:
+- The years displayed on the dashboard are all dynamic and update automatically based on the user's selected year. As illustrated in Image 10, the years have changed to 2021 for the current year and 2020 for the previous year. By keeping the years visible on the screen at all times, end users can easily see the relevant time periods without having to refer back to the filter. 
 
 
 
