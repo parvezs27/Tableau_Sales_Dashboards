@@ -163,11 +163,11 @@ After formatting, our final KPI charts are below:
 
 The BAN's clearly depict the KPI value, the percent difference is shown between the current and previous year, the sparklines showcase the difference in trends between the current and previous year, and, the orange and blue dots represent the months with the lowest and highest value of the particular KPI respectively. Axes, tick marks, titles, gridlines and the names of other months have been omitted to reduce cluttering and distraction. 
 
-## Bar in Bar Charts
+## Bar in Bar, and Bar Charts
 
-Key points regarding the creation of the Bar in Bar Charts:
+Key points regarding the creation of the Bar in Bar, and Bar Charts:
 
-- A calculated field was created "KPI CY Less PY", which displays dots on the subcategories where current year sales were below previous year sales.
+- A calculated field was created "KPI CY Less PY", which displays orange dots on the subcategories where current year sales were below previous year sales.
 
 After formatting, below are our bar in bar, and bar charts:
 
@@ -178,7 +178,7 @@ After formatting, below are our bar in bar, and bar charts:
 
 Key points regarding the creation of the Step Line Charts:
 
-- Weekly sales and weekly profit charts are displayed for the curent year, as well as the average weekly value with a reference line. Dual Axis has not been used, as overlaying one line graph over the other will cause the reference lines to be in too close proximity with each other making it hard to read.
+- Weekly sales and weekly profit charts are displayed for the curent year, as well as the average weekly value with a reference line. Dual Axis has not been used, as overlaying one line graph over the other will cause the reference lines to be in too close proximity with each other making it difficult to read.
 - Orange denotes weeks/time periods below the average weekly value for that year, whereas blue denotes weeks/time periods above the average weekly value for that year.
 
 After formatting, below are our step line charts:
@@ -190,22 +190,22 @@ Now that we have finished our charts, we can now move onto arranging all these c
 
 # Building Dashboard
 
-## Sizing:
+## Sizing
 Sizing dashboards in Tableau can be challenging due to several factors, including the default Tableau scaling, the varied display sizes of end users, and their default zoom levels in computer display settings. Automatic sizing may seem convenient, however, it often leads to issues such as misalignment of elements and improper scaling of floating versus non-floating elements. Additionally, automatically sized dashboards can result in slower performance on Tableau Server. This happens because the server tries to render the dashboard to fit the smallest common screen size among all users, leading to longer load times and potential site crashes.
 
-To mitigate these problems, it is recommended to use fixed-sized dashboards. Fixed-sized dashboards ensure that all elements remain properly aligned and maintain their intended positions. Moreover, when viewed on Tableau Server, fixed-sized dashboards tend to load faster as the server can utilize cached versions, improving overall performance and user experience.
+To mitigate these problems, it is recommended to use fixed-sized dashboards. Fixed-sized dashboards ensure that all elements remain properly aligned and maintain their intended positions. Moreover, when viewed on Tableau Server, fixed-sized dashboards tend to load faster as the server can utilise cached versions, improving overall performance and user experience.
 
-With the decision to use fixed sizing for dashboards, the next question is determining the optimal size. This largely depends on the display sizes that end users will use to view the dashboards. In many organisations, there is a standardised size for all dashboards, simplifying the design process as all end users have similar screen sizes. However, in many cases, end users will view dashboards on various devices, ranging from laptop screens to desktop monitors and larger TV displays. Therefore, it is important to design dashboards in multiple sizes to accommodate these variations.
+Now that we have decided to use fixed sizing for the dashboard , the next question is determining the optimal size. This largely depends on the display sizes that end users will use to view the dashboards. In many organisations, there is a standardised size for all dashboards, which simplifies the design process as all end users have similar screen sizes. However, in many cases, end users will view dashboards on various devices, ranging from laptop screens to desktop monitors and larger TV displays. Therefore, it is important to design dashboards in multiple sizes to accommodate these variations.
 
-The PowerPoint sizing option is particularly popular, as many organisations prefer to view and share dashboards as slides. For this project, we will use a custom fixed size of 1200 x 800. In practice, we would assess the screen sizes of end users and develop dashboards tailored to those dimensions. This doesn't mean creating an excessive number of dashboards; a 1200 x 800 dashboard, for instance, will be sufficient for screens of similar sizes. However, where thare are significant differences, such as viewing on smaller laptop screens or phones, will necessitate creating dashboards specifically designed for those smaller formats.
+The PowerPoint sizing option is particularly popular, as many organisations prefer to view and share dashboards as slides. For this project, we will use a custom fixed size of 1200 x 800. In practice, we would assess the screen sizes of end users and develop dashboards tailored to those dimensions. This doesn't mean creating an excessive number of dashboards; a 1200 x 800 dashboard, for instance, will be sufficient for screens of similar sizes. However, where thare are significant differences, such as viewing on smaller laptop screens or phones, this will necessitate creating dashboards specifically designed for those smaller formats.
 
-## Containers:
+## Containers
 
-Layout containers could be said to be the ultimate love-hate relationship within Tableau. Whilst containers are great for several things like providing strucutre to your dashboard, assisting with alignment of elements, dynamic resizing and re-usable layouts, they can also be a pain to work with at times. However, if you use them correctly, they will serve you well. 
+Layout containers may be the ultimate love-hate relationship within Tableau. Whilst containers are great for several uses like providing structure to your dashboard, assisting with alignment of elements, dynamic resizing and creation of re-usable layouts, they can also be a pain to work with at times. However, if you use them correctly they will serve you well. 
 
-For our task, we will utilise containers in a manner that minimises mess and the potential for the dashboard to break. The very first primary vertical container, which will hold all subsequent containers, will be floated, coordinates set to 0,0 and size set to the size of the dashboard which is 1200 x 800. By floating the first container which holds all subsequent containers, we will keep nested tiled containers from automatically appearing in the item hierarchy. Tiled containers add extra layers into the item hierarchy which makes it hard to track your containers and your item hierarchy confusing to read. This is not ideal for yourself, nor for others that may need to view the item hierarchy in the future. Keep the item hierarchy clean, we will also label all our containers so we know which container holds which elements and is for which purpose. Also, blank objects will be used as placeholders in our containers to help with inputting our elements into the correct container/correct position in the container. These blank objects become increasingly important when you've got multiple containers around each other and it becomes trickier to drag and drop elements in the correct position. 
+For our task, we will utilise containers in a manner that minimises mess and the potential for the dashboard to break. The very first primary vertical container, which will hold all subsequent containers, will be floated, the coordinates will be set to 0,0 and the size will be set to the size of the dashboard which is 1200 x 800. By floating the first container which holds all subsequent containers, we will keep nested tiled containers from automatically appearing in the item hierarchy. Tiled containers add extra layers into the item hierarchy which makes it hard to track your containers and makes your item hierarchy confusing to read. This is not ideal for yourself, nor for other users that may need to view the item hierarchy. To keep the item hierarchy neat, we will also label all our containers so we know which container holds which elements and is for which purpose. Additionally, blank objects will be used as placeholders in our containers to asisst with inputting our elements into the correct container/correct position in the container. These blank objects become increasingly important when you've got multiple containers around each other and it becomes trickier to drag and drop elements in the correct position. 
 
-Our item hierarchy is looking like this so far. If we had used tiled containers there would be several "tiled" layers in the item hierarchy, causing confusion. 
+Below is our item hierarchy which looks clean, with clearly labelled containers without extra unnecessary layers. If we had used tiled containers, there would be several "tiled" layers in the item hierarchy.
 
 ![image](https://github.com/user-attachments/assets/1f57a467-8359-4251-b97b-120ef7abbe90)
 
@@ -235,7 +235,7 @@ After formatting and re-arranging the elements, below is the final version of th
 
 ## Content Requirements
 
-The requirements below for the Customers Dashboard have also been provided to us by management:
+The requirements below for the Customers Dashboard have also been provided to us by management.
 
 **KPI Overview:**
 
