@@ -1,40 +1,40 @@
 # Task Context
 
-We are working as Data Analysts for the retail company "Superstore", which sells furniture, office supplies and technology items. We have been tasked with developing two dashboards using Tableau, to assist stakeholders including sales managers and executives, in analysing sales performance and customers. Stakeholders would like a high level view of key metrics and to be able to analyse year-over-year performance. Additionally, stakeholders would like to see an overview of customer data, trends and behaviours, in order to assist management and marketing teams to understand customer segments and improve customer satisfaction.
+We are working as Data Analysts for the retail company "Superstore", which sells furniture, office supplies and technology products. We have been tasked with developing two dashboards using Tableau, to assist stakeholders including sales managers and executives, in analysing sales performance and customers. Stakeholders would like to a high level view of key metrics and to be able to analyse year-over-year performance. Additionally, stakeholders would like to see an overview of customer data, trends and behaviours, in order to assist management and marketing teams to understand customer segments and improve customer satisfaction.
 
 To tackle this task, we will follow the plan below:
 
 ## Analyse Requirements & Documentation
-- Collect and understand task requirements
-- Create project documentation (project purpose, instructions, version control etc.)
-- Select optimal charts
-- Develop Mockups and Prototypes
+- Collect and understand task requirements.
+- Create project documentation (project purpose, dashboard instructionsinstructions, version control etc.).
+- Select optimal charts.
+- Develop mockups and prototypes.
 
 ## Build the Data Source
-- Connect data (clean the data if required)
-- Create a Data Model
-- Check data types and understand the data
+- Data Wrangling (importing, cleaning, transformation).
+- Create a Data Model.
 
 ## Build the Charts
-- Create and test required calculated fields
-- Build charts (ensure data is correct through testing/validating with Excel)
+- Create and test required calculated fields.
+- Build charts.
+- Test/validate chart totals/aggregations.
 - Format charts
-  - Remove gridlines and other unnecessary lines
-  - Clean up axes and headers
-  - Select colors and format tooltips
+  - Remove gridlines and other unnecessary lines/borders.
+  - Clean up axes and headers.
+  - Select colors and format tooltips.
  
  ## Build the Dashboards
- - Build container structure
- - Input charts
+ - Build container structure.
+ - Input charts.
  - Format
-   - Layout charts and elements in alignment by utilising functions such as "distribute contents evenly" and inner and outer padding. 
-   - Utilise space by fitting to "entire view"
-   - Add relevent legends/colour keys
-   - Add filters for interactivty
-   - Add icons for navigation buttons
-- Test the dashboard
+   - Utilise functions e.g. "dsitribute contents evenly" and inner and outer padding to alignment elements.
+   - Utilise space by fitting charts to "entire view".
+   - Add relevent legends/colour keys.
+   - Add filters for interactivty.
+   - Add icons for navigation buttons.
+- Test the dashboard.
 
-The documentation for this dashboard will be kept in a separate file. Dashboard documentation should be kept outside of the dashboard rather than embedding inside. Embedding documentation within a Tableau dashboard can create several issues. It consumes space, which in turn reduces space for visualisations and other elements. Frequent updates become cumbersome as they require republishing the entire dashboard, and managing version control becomes challenging. User experience can be negatively impacted due to navigation difficulties and limited flexibility in accessing documentation. Additionally, extensive embedded documentation can negatively impact load times and overall dashboard performance. Therefore, keeping documentation separate is ideal for efficiency and a better user experience.
+The documentation for this dashboard will be kept in a separate file. Dashboard documentation should be kept outside of the dashboard rather than embedded inside the dashboard. Embedding documentation within a Tableau dashboard can create several issues. It consumes space, which in turn reduces space for visualisations and other elements. Frequent updates become cumbersome as they require republishing the entire dashboard, and managing version control becomes challenging. User experience can be negatively impacted due to navigation difficulties and limited flexibility in accessing documentation. Additionally, extensive embedded documentation can negatively impact load times and overall dashboard performance. Therefore, keeping documentation separate is ideal for efficiency and a better user experience.
 
 # Analysis of Requirements (Sales Dashboard)
 
