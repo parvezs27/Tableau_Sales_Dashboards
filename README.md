@@ -118,11 +118,11 @@ Figma is a great tool to use to prototype your dashboards due to it's features a
 
 ## Documentation
 
-We will use the following [template](https://github.com/parvezs27/Tableau_Sales_Dashboards/blob/main/Sales%20and%20Customer%20Dashboard%20Document.pdf) for our dashboard documentation. Dashboard documentation is a best practice and it's crucual that it is developed. Documentation provides clarity and guidance to end users, ensuring they understand the purpose and benefits of the dashboard within the context of the business problem/question, the data sources used and the functionality of the dashboard and how to use it optimally. Additionally, documentation holds data source information which provides transparency, as well as maintenance and update details, which preserves the integrity of the dashboard. 
+We will use the following [template](https://github.com/parvezs27/Tableau_Sales_Dashboards/blob/main/Sales%20and%20Customer%20Dashboard%20Document.pdf) for our dashboard documentation. Dashboard documentation is a best practice and it's crucual that documentation is developed for our dashboards and projects. Documentation provides clarity and guidance to end users, ensuring they understand the purpose and benefits of the dashboard within the context of the business problem/question and the functionality of the dashboard and how to use it optimally. Additionally, documentation holds key information such as data source information and maintenance/update details, which ensure transparency, accountability and preservation of dashboard integrity. 
 
 # Data Source Preparation
 
-We will start by building our data model. It's important to understand the data we have and to see which tables are dimensions and which table are facts. The Customers, Location and Products tables are dimension tables, as the information in these tables contain categorical data that provide context to measures. The Orders table is a fact table, as it contains transactions which are measurable business events. 
+We will start by building our data model. It is important to understand the data we have and to see which tables are dimensions and which tables are facts. The Customers, Location and Products tables are dimension tables, as the information in these tables contain categorical data that provide context to measures. The Orders table is a fact table, as it contains transactions which are measurable business events. 
 
 Now that we understand our data we can start modeling this data for our use. We will create a relation between each dimension table and the fact table as below. You can think of this model as one fact table, and all the dimension tables are connected to this one fact table to describe the facts. 
 
@@ -130,9 +130,9 @@ Now that we understand our data we can start modeling this data for our use. We 
 
 *Image 1. Data Model* 
 
-Now we will go ahead and check the data types to ensure that Tableau has interpreted and processed the data correctly. It's not uncommon for Tableau to misinterpet the data, hence why it's important to do a manual check. Potential misinterpretations by Tableau may include interpreting Dates as Strings, which won't allow us to analyse the data in relation to time. Additionally, numbers can be interpreted as strings, if this happens, we won't be allowed to perform mathematical operations like sum, average or percentage calculations. Upon checking our data, we can see all the data types are correct. Text columns like Product Name have the string data type, numerical columns like Profit have the number data type, date columns have the date data type and location columns have the geographic data type.  
+Now we will go ahead and check the data types to ensure that Tableau has interpreted and processed the data correctly. It is not uncommon for Tableau to misinterpet the data, hence why it is important to do a manual check. Potential misinterpretations by Tableau may include interpreting Dates as Strings, which won't allow us to analyse the data in relation to time. Additionally, numbers can be interpreted as strings, if this happens, we won't be allowed to perform mathematical operations like sum, average or percentage calculations. Upon checking our data, we can see all the data types are correct. Text columns like Product Name have the string data type, numerical columns like Profit have the number data type, date columns have the date data type and location columns have the geographic data type.  
 
-Now that we've analysed our requirements, created a mockup and built our data source, we can move onto the exciting part and start developing our visualisations. 
+Now that we've analysed our requirements, created a mockup and documentation template, and built our data source, we can move onto the exciting part and start developing our visualisations. 
 
 # Building Charts
 
@@ -148,7 +148,7 @@ Key points regarding the creation of BANs:
 - A parameter was created and linked to the calculated fields for current and previous year metrics, to allow dynamic year selection.
 - Calculated fields were also created for the % difference between the current and previous years metrics.
 - The custom format "▲ 0.0%; ▼ -0.0%" was implemented for the % difference between current and previous year metrics, where the up arrow denotes a positive percent difference and the down arrow denotes a negative percent difference.
-- The values of the metrics were validated for all years with Excel. Sometimes Tableau can misinterpret values and misconstrue aggregations, which is why it's a good idea to double check the values outside of Tableau. In Image 2, we can see that the aggregation for the metrics for the year 2021 are correct. 
+- The values of the metrics were validated for all years with Excel. Sometimes Tableau can misinterpret values and misconstrue aggregations, which is why it is a good idea to double check the values outside of Tableau. In Image 2, we can see that the aggregations for the metrics of the year 2021 are correct. 
 
 ## Sparklines
 
@@ -156,12 +156,12 @@ Key points regarding the creation of the Sparklines:
 
 - The calculated field "Min/Max" was created for sales, profit and quantity, in order to return the value for the rows where the metric value is either maximum or minimum in the given window. This will allow us to highlight the maximum and minimum values on the chart. 
 
-After formatting, below are our final KPI charts:
+After formatting, our final KPI charts are below:
 
 ![image](https://github.com/user-attachments/assets/96c598a4-2d34-4254-b07c-514071f72022)
 *Image 3. KPI Charts*
 
-The BAN's clearly depict the KPI value, the percent difference is shown between the current and previous year as well as the sparklines to depict the difference in trends between the years. Axes, tick marks, titles, gridlines and the names of other months have been omitted to reduce cluttering and distraction. 
+The BAN's clearly depict the KPI value, the percent difference is shown between the current and previous year, the sparklines showcase the difference in trends between the current and previous year, and, the orange and blue dots represent the months with the lowest and highest value of the particular KPI respectively. Axes, tick marks, titles, gridlines and the names of other months have been omitted to reduce cluttering and distraction. 
 
 ## Bar in Bar Charts
 
