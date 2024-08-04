@@ -228,7 +228,14 @@ After formatting and re-arranging the elements, below is the final version of th
 
 ![image](https://github.com/user-attachments/assets/11bad169-b104-41b2-ab20-9aa64c7eb4d3)
 
-*Image 9. Sales Dashboard*
+*Image 9. Sales Dashboard 1*
+
+![image](https://github.com/user-attachments/assets/b75e0eff-0801-444a-b044-77cd9dbee457)
+
+*Image 10. Sales Dashboard 2*
+
+K
+
 
 
 # Analysis of Requirements (Customers Dashboard)
