@@ -101,7 +101,7 @@ For weekly trends for sales and profits, since we are looking at sales and profi
 
 - Allow the end user flexibiity to view historical data.
 - Allow the end user easy navigatation between dashboards.
-- Charts should be interactive, allowing end users to filter data using the charts themselves.
+- Interactive charts, allowing end users to filter data using the charts.
 - The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
 
 Parameters will be employed to enable end users to access historical data from previous years. For interactivity, dimension, date, and action filters will be implemented, allowing end users to filter data through charts, as well as by category, subcategory, and location. Additionally, navigation buttons will be incorporated to facilitate easy navigation between dashboards.
@@ -267,7 +267,7 @@ The requirements below for the Customers Dashboard have also been provided to us
 
 - Allow the end user flexibiity to view historical data.
 - Allow the end user easy navigatation between dashboards.
-- Charts should be interactive, allowing end users to filter data using the charts themselves.
+- Interactive charts, allowing end users to filter data using the charts.
 - The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
 
 ## Plan to Meet Requirements
@@ -288,7 +288,7 @@ The KPI Overview and Customer Trend requirements are very similar to the KPI req
 
 - **Provide a representation of the distribution of customers based on the number of orders placed to provide insights into customer behaviour, loyality and engagement.**
 
-For customer distribution by number of orders, a histogram will be used. A histogram will help in understanding how many customers fall into the different ranges (bins) of the number of orders placed, providing picture of the overall distribution. Additionally, the histogram will also allow the spotting of outliers or unusual data points that may indicate unique customer segements or behaviours. 
+For customer distribution by number of orders, a histogram will be used. A histogram will help in understanding how many customers fall into the different ranges (bins) of the number of orders placed, providing a clear picture of the overall distribution. Additionally, the histogram will also allow the spotting of outliers or unusual data points that may indicate unique customer segements or behaviours. 
 
 **Top 10 Customers by Profit:**
 - **Display the top 10 customers by profits in descending order.**
@@ -296,15 +296,15 @@ For customer distribution by number of orders, a histogram will be used. A histo
 
 For Top 10 Customers by Profit, a simple table will be used. Due to the amount of detail we have to display, a table with the metrics as columns and ranks as rows will provide a picture of the information required. 
 
-Paramaters will be utilised to allow end users to view historical data for previous years. Filters will be utilised to allow end users to filter using charts and to filter by category, subcategory and location. Finally, navigation buttons will be included allowing navigation between dashboards.
+Parameters will be employed to enable end users to access historical data from previous years. For interactivity, dimension, date, and action filters will be implemented, allowing end users to filter data through charts, as well as by category, subcategory, and location. Additionally, navigation buttons will be incorporated to facilitate easy navigation between dashboards.
 
-We won't create a mockup for the Customer Dashboard, as it will be the exact same structure as the Sales Dashboard. We will also skip Data Source Preparation as we already have the data source prepared.
+We will not create a mockup for the Customer Dashboard, as it will be the exact same structure as the Sales Dashboard. We will also skip Data Source Preparation as we already have the data source prepared.
 
 # Building Charts
 
 ## BANs
 
-We will follow the exact same process here as we did for the Sales Dashboard, which is to create the required calculated fields, test these fields and test the aggregated values against Excel. 
+We will follow the exact same process here as we did for the Sales Dashboard, which is to create the required calculated fields, test these fields and test/validate the aggregated values using Excel. 
 
 ## Sparklines
 
@@ -319,6 +319,8 @@ To show the customer distribution, since we are talking aboout two measures 1) C
 
 ```
 
+Basically, this LOD expression is telling Tableau to fix the calculation at the current year customers level, and to count the number of unique orders for each customer. The result will be the number of unique orders placed by each customer. 
+
 For the Top Customers by Profit table, we used the INDEX() function to assign a rank to the rows. The default table were also removed and replaced with custom headers using text objects within a horizontal container. 
 
 
@@ -332,7 +334,7 @@ After formatting and re-arranging the elements, below is the final version of th
 
 ![image](https://github.com/user-attachments/assets/3a4c4d59-995c-4712-9922-f1a977306100)
 
-*Image 10. Customers Dashboard*
+*Image 11. Customers Dashboard*
 
 
 
