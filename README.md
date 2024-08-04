@@ -236,8 +236,11 @@ After formatting and re-arranging the elements, below is the final version of th
 
 Key points regarding the Sales Dashboard:
 - The years displayed on the dashboard are all dynamic and update automatically based on the user's selected year. As illustrated in Image 10, the years have changed to 2021 for the current year and 2020 for the previous year. By keeping the years visible on the screen at all times, end users can easily see the relevant time periods without having to refer back to the filter. 
-
-
+- A clear visual hierarchy is visible with the KPI's prominently displayed at the top
+- Whitespace has been utilised to divide the dashboard into distinct sections, preventing clutter and making the overall layout more visually appealing and easier on the eye.
+- Contrasting colors have been used to highlight different elements, such as low and high months, making them easier to distinguish. Additionally, the colours serve as codes to build familiarity: orange for loss/lower values and blue for profit/higher values. This allows for quicker comprehension. When readers first associate orange with loss in the BANs, they will immediately recognise that anything marked with orange in the sales and profit by subcategory chart and the sales and profit trends over time chart indicates lower values. This also maintains consistency through the dashboard.
+- The navigation icons change from blue to white and vice versa depending on which dashboard the end user is viewing, providing a clear visual indicator of the end user's current location within the dashboard.
+- The filter pane can be kept on display or hidden using the 'x' button, this optimises screen space and potentially improves loading times by reducing the number of visible elements on the screen at once.
 
 # Analysis of Requirements (Customers Dashboard)
 
