@@ -116,6 +116,10 @@ https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&
 
 Figma is a great tool to use to prototype your dashboards due to it's features and ease of use. In our mockup, we have opted for a clear, uncluttered and minimalist design, by using simple charts, utilising white space and conservative use of colouring (4-5 key colours). The Customers Dashboard will also follow a very similar structure to the Sales dashboard.
 
+## Documentation
+
+We will use the following [template](https://github.com/parvezs27/Tableau_Sales_Dashboards/blob/main/Sales%20and%20Customer%20Dashboard%20Document.pdf) for our dashboard documentation. Dashboard documentation is a best practice and it's crucual that it is developed. Documentation provides clarity and guidance to end users, ensuring they understand the purpose and benefits of the dashboard within the context of the business problem/question, the data sources used and the functionality of the dashboard and how to use it optimally. Additionally, documentation holds data source information which provides transparency, as well as maintenance and update details, which preserves the integrity of the dashboard. 
+
 # Data Source Preparation
 
 We will start by building our data model. It's important to understand the data we have and to see which tables are dimensions and which table are facts. The Customers, Location and Products tables are dimension tables, as the information in these tables contain categorical data that provide context to measures. The Orders table is a fact table, as it contains transactions which are measurable business events. 
