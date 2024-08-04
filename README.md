@@ -40,21 +40,21 @@ The documentation for this dashboard will be kept in a separate file. Dashboard 
 
 ## Content Requirements
 
-The requirements below for the Sales Dashboard have been provided to us by management.
+The content requirements for the Sales Dashboard have been provided to us by management below.
 
 **KPI Overview:**
-- Display a high level view of total sales, total profit and quantity sold for current and previous years. 
+- Display a high level view of total sales, total profit and total quantity sold for current and previous years. 
 
 **Sales Trends:**
 - Visualise data for each KPI on a monthly basis for current and previous years.
 - Highlight the months with the highest and lowest sales, whilst making them easily recognisable.
 
 **Comparison of product subcategories:**
-- Compare the sales and profit for the different product subcategories for the current and previous year, including a comparison of sales with profit.
+- Compare the sales and profit for the different product subcategories for the current and previous years, including a comparison of sales with profit.
 
 **Weekly Trends for Sales & Profits:**
 - Show the weekly sales and profit for the current year and display the average weekly sales and profit values.
-- Highlight the weeks that are above and below the average values.
+- Highlight the weeks that are above and below the overall average weekly sales and profit values for the year in view. 
 
 ## Design Requirements
 
@@ -62,7 +62,7 @@ The Sales Dashboard should meet the following design requirements:
 
 - Allow the end user flexibiity to view historical data.
 - Allow the end user easy navigatation between dashboards.
-- Charts should be interactive, allowing end users to filter data using the charts themselves.
+- Interactive charts, allowing end users to filter data using the charts.
 - The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
 
 ## Plan to Meet Requirements
@@ -73,8 +73,8 @@ Below is our plan to meet the content and design requirements.
 
 - **Display a high level overview of total sales, profits and quantity for the current and previous year.**
 
-To display the KPI's, we will utilise "BANs" (Big-Ass Numbers). BAN's display key metrics or KPI's in a large, bold format. This offers several benefits, such as:
-- Quicker, clearer and easier noticeability of key information. The larger and bolder text has more of a direct impact, allowing critical information to be seen quickly and clearly. This reduces cognitive load on the viewer and having to search around the screen for the key information, ultimately allowing for a better viewing experience.
+To display the required KPI's, we will utilise "BANs" (Big-Ass Numbers). BAN's showcase key metrics or KPI's in a larger, bolder format, which offers several benefits such as:
+- Quicker, clearer and easier noticeability of key information. The larger and bolder text has more of a direct/striking impact, allowing critical information to be seen quickly and clearly. This lessens the cognitive load on the viewer and eliminates the need to search around the screen for key information, ultimately providing a better user experience. 
 - Improvement of dashboard structure and reading flow. Having large and bold text at the top of the dashboard to highlight critical information creates a top to bottom visual hierarchy, where the most important information is highlighted at the top. This provides dashboard structure and a logical reading flow for the end user.
 
 **Sales Trends:**
