@@ -142,7 +142,7 @@ Now that we understand our data we can start modeling this data for our use. We 
 
 Now we will go ahead and check the data types to ensure that Tableau has interpreted and processed the data correctly. It is not uncommon for Tableau to misinterpet the data, hence why it is important to do a manual check. Potential misinterpretations by Tableau may include interpreting Dates as Strings, which won't allow us to analyse the data in relation to time. Additionally, numbers can be interpreted as strings, if this happens, we won't be allowed to perform mathematical operations like sum, average,  percentage calculations etc. Upon checking our data, we can see all the data types are correct. Text columns like Product Name have the string data type, numerical columns like Profit have the number data type, date columns have the date data type and location columns have the geographic data type.  
 
-Now that we've analysed our requirements, created a mockup and documentation template, and built our data source, we can move onto the exciting part and start developing our visualisations. 
+Now that we have analysed our requirements, created a mockup and documentation template, and built our data source, we can move onto the exciting part and start developing our visualisations. 
 
 # Building Charts
 
@@ -171,7 +171,7 @@ After formatting, our final KPI charts are below:
 ![image](https://github.com/user-attachments/assets/96c598a4-2d34-4254-b07c-514071f72022)
 *Image 3. KPI Charts*
 
-The BAN's clearly depict the KPI value, the percent difference is shown between the current and previous year, the sparklines showcase the difference in trends between the current and previous year, and, the orange and blue dots represent the months with the lowest and highest value of the particular KPI respectively. Axes, tick marks, titles, gridlines and the names of other months have been omitted to reduce cluttering and distraction. 
+The BAN's clearly depict the KPI value, the percent difference is shown between the current and previous year, the sparklines showcase the difference in trends between the current and previous year, and, the orange and blue dots represent the months with the lowest and highest value of the particular KPI respectively. Axes, tick marks, titles, gridlines and the names of other months have been omitted to keep a minimalistic and clutter free layout.
 
 ## Bar in Bar, and Bar Charts
 
