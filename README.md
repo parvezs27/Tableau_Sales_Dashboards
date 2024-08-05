@@ -29,7 +29,7 @@ To tackle this task, we will follow the plan below:
  - Build container structure.
  - Input charts.
  - Format
-   - Utilise functions e.g. "dsitribute contents evenly" and inner and outer padding to alignment elements.
+   - Utilise functions e.g. "distribute contents evenly" and inner and outer padding to align elements evenly.
    - Utilise space by fitting charts to "entire view".
    - Add relevent legends/colour keys.
    - Add interactive elements e.g. filters and parameters.
