@@ -65,7 +65,7 @@ The Sales Dashboard should meet the following design requirements:
 - Interactive charts, allowing end users to filter data using the charts.
 - The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
 
-## Strategy to meet content and design needs
+## Strategy to Meet Content and Design Needs
 
 Below is our plan to meet the content and design requirements.
 
