@@ -73,7 +73,7 @@ Below is our plan to meet the content and design requirements.
 
 - **Display a high level overview of total sales, profits and quantity for the current and previous year.**
 
-To display the required KPI's, we will utilise "BANs" (Big-Ass Numbers). BAN's showcase key metrics or KPI's in a larger, bolder format, which offers several benefits such as:
+To display the required KPI's, we will utilise **"BANs" (Big-Ass Numbers).** BAN's showcase key metrics or KPI's in a larger, bolder format, which offers several benefits such as:
 
 **Quicker, clearer and easier noticeability of key information:** The larger and bolder text has more of a direct/striking impact, allowing critical information to be seen quickly and clearly. This lessens the cognitive load on the viewer and eliminates the need to search around the screen for key information, ultimately providing a better user experience. 
 
@@ -84,12 +84,12 @@ To display the required KPI's, we will utilise "BANs" (Big-Ass Numbers). BAN's s
 - **Visualise data for each KPI on a monthly basis for the current and previous year.**
 - **Highlight the months with the highest and lowest sales and make them easily recognisable.**
 
-Since we are required to visualise A) Sales Trends, and B) the data for each KPI on a monthly basis for current and previous years, we will use sparklines to achieve this. Sparklines are smaller and simpler line chart without axes and coordinates, which are used to show trends overtime in an uncluttered and minimalistic manner. For our task, they will complement the BAN's, as the BAN's will provide a snapshot of key metrics at a particular point in time, whilst the sparklines will illustrate the trends overtime for current and previous years (2 lines), providing more context. Additionally, we will also be able to highlight the highest and lowest selling months on the sparklines. 
+Since we are required to visualise A) Sales Trends, and B) the data for each KPI on a monthly basis for current and previous years, we will use **sparklines** to achieve this. Sparklines are smaller and simpler line chart without axes and coordinates, which are used to show trends overtime in an uncluttered and minimalistic manner. For our task, they will complement the BAN's, as the BAN's will provide a snapshot of key metrics at a particular point in time, whilst the sparklines will illustrate the trends overtime for current and previous years (2 lines), providing more context. Additionally, we will also be able to highlight the highest and lowest selling months on the sparklines. 
 
 **Comparison of product subcategories:**
 - **Compare the sales and profit of the different product subcategories for the current and previous year, including a comparison of sales with profit.**
 
-For the comparison of product subcategories, if we were to be comparing subcategories only for the current year, then a vertical or horizontal bar chart would be fine. However, since we have multiple dimensions (subcategory, current year, previous year), and one measure (sales performance), a bar-in-bar chart would be an ideal chart to display the product subcategory sales and profits by current and previous year. 
+For the comparison of product subcategories, if we were to be comparing subcategories only for the current year, then a vertical or horizontal bar chart would be fine. However, since we have multiple dimensions (subcategory, current year, previous year), and one measure (sales performance), a **bar-in-bar chart** would be an ideal chart to display the product subcategory sales and profits by current and previous year. 
 
 Talking about bar charts, they are one of the most commonly used and effective visualisations to communicate information quickly and clearly. There are several features of bar charts that allow for this including the length of the bars which provide an easier comparison of values across different categories, the visual separation between bars which allows for clear distinction between categories and the ability to customise the chart with colours, labels and annotations to emphasise key information.
 
@@ -97,7 +97,7 @@ Talking about bar charts, they are one of the most commonly used and effective v
 - **Show the weekly sales and profit for the current year and display the average weekly sales and profit values.**
 - **Highlight the weeks that are above and below the average values.**
 
-For weekly trends for sales and profits, since we are looking at sales and profit data over time on a weekly basis, a line chart would be a good choice chere. The path of the chart can be customised from a linear path to a step path for example. Line charts with a linear path use straight lines between data points, implying a constant rate of change from one data point to the next, which may not always be true. Step line charts can be an effective way to display a more accurate depiciton of the change between data points by showing how long the value at a specific data point lasts or how large a change is between data points. 
+For weekly trends for sales and profits, since we are looking at sales and profit data over time on a weekly basis, a line chart would be a good choice chere. The path of the chart can be customised from a linear path to a step path for example. Line charts with a linear path use straight lines between data points, implying a constant rate of change from one data point to the next, which may not always be true. **Step line charts** can be an effective way to display a more accurate depiciton of the change between data points by showing how long the value at a specific data point lasts or how large a change is between data points. 
 
 **Design Requirements**
 
@@ -290,15 +290,15 @@ The KPI Overview and Customer Trend requirements are very similar to the KPI req
 
 **Customer Distribution by Number of Orders:**
 
-- **Provide a representation of the distribution of customers based on the number of orders placed to provide insights into customer behaviour, loyality and engagement.**
+- **Provide a representation of the distribution of customers based on the number of orders placed to provide insights into customer behaviour, loyalty and engagement.**
 
-For customer distribution by number of orders, a histogram will be used. A histogram will help in understanding how many customers fall into the different ranges (bins) of the number of orders placed, providing a clear picture of the overall distribution. Additionally, the histogram will also allow the spotting of outliers or unusual data points that may indicate unique customer segements or behaviours. 
+For customer distribution by number of orders, a histogram will be used. A **histogram** will help in understanding how many customers fall into the different ranges (bins) of the number of orders placed, providing a clear picture of the overall distribution. Additionally, the histogram will also allow the spotting of outliers or unusual data points that may indicate unique customer segements or behaviours. 
 
 **Top 10 Customers by Profit:**
 - **Display the top 10 customers by profits in descending order.**
 - **Show additional information such as rank, number of orders, current sales, current profit and the last order date.**
 
-For Top 10 Customers by Profit, a simple table will be used. Due to the amount of detail we have to display, a table with the metrics as columns and ranks as rows will provide a picture of the information required. 
+For Top 10 Customers by Profit, a simple **table** will be used. Due to the amount of detail we have to display, a table with the metrics as columns and ranks as rows will provide a picture of the information required. 
 
 Parameters will be employed to enable end users to access historical data from previous years. For interactivity, dimension, date, and action filters will be implemented, allowing end users to filter data through charts, as well as by category, subcategory, and location. Additionally, navigation buttons will be incorporated to facilitate easy navigation between dashboards.
 
