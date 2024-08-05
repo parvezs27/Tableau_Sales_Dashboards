@@ -74,8 +74,8 @@ Below is our plan to meet the content and design requirements.
 - **Display a high level overview of total sales, profits and quantity for the current and previous year.**
 
 To display the required KPI's, we will utilise "BANs" (Big-Ass Numbers). BAN's showcase key metrics or KPI's in a larger, bolder format, which offers several benefits such as:
-- Quicker, clearer and easier noticeability of key information. The larger and bolder text has more of a direct/striking impact, allowing critical information to be seen quickly and clearly. This lessens the cognitive load on the viewer and eliminates the need to search around the screen for key information, ultimately providing a better user experience. 
-- Improvement of dashboard structure and reading flow. Positioning large, bold text at the top of the dashboard to highlight critical information creates a top to bottom visual hierarchy, where the most important information is highlighted at the top. This design creates a well organised dashboard with a logical reading flow for the end user. 
+**- Quicker, clearer and easier noticeability of key information:** The larger and bolder text has more of a direct/striking impact, allowing critical information to be seen quickly and clearly. This lessens the cognitive load on the viewer and eliminates the need to search around the screen for key information, ultimately providing a better user experience. 
+**- Improvement of dashboard structure and reading flow:** Positioning large, bold text at the top of the dashboard to highlight critical information creates a top to bottom visual hierarchy, where the most important information is highlighted at the top. This design creates a well organised dashboard with a logical reading flow for the end user. 
 
 **Sales Trends:**
 
