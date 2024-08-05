@@ -336,6 +336,10 @@ After formatting and re-arranging the elements, below is the final version of th
 
 *Image 11. Customers Dashboard*
 
+# Final Analysis
+
+
+
 
 
 
