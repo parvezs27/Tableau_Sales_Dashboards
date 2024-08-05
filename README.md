@@ -40,7 +40,8 @@ To tackle this task, we will follow the plan below:
 
 ## Data Source
 
-Management has provided the necessary data to complete the task, accessible [here](https://github.com/parvezs27/Tableau_Sales_Dashboards/tree/main/Data%20Source). The data comprises of four CSV files: 'Customers', 'Location', 'Orders' and 'Products', which have already been cleaned. 
+Management has provided the necessary data to complete the task, accessible [here](https://github.com/parvezs27/Tableau_Sales_Dashboards/tree/main/Data%20Source). 
+The data comprises of four CSV files: 'Customers', 'Location', 'Orders' and 'Products', which have already been cleaned. 
 
 ## Content Requirements
 
