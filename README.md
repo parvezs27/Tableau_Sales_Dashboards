@@ -173,11 +173,13 @@ After formatting, our final KPI charts are below:
 
 The BAN's clearly depict the KPI value, the percent difference is shown between the current and previous year, the sparklines showcase the difference in trends between the current and previous year, and, the orange and blue dots represent the months with the lowest and highest value of the particular KPI respectively. Axes, tick marks, titles, gridlines and the names of other months have been omitted to keep a minimalistic and clutter free layout.
 
-## Bar in Bar, and Bar Charts
+## Bar in Bar and Bar Charts
 
 Key points regarding the creation of the Bar in Bar, and Bar Charts:
 
-- A calculated field was created "KPI CY Less PY", which displays orange dots on the subcategories where current year sales were below previous year sales.
+- A calculated field named "KPI CY Less PY" was created to highlight subcategories where current year sales were below previous year sales. Orange dots have been used to draw attention quickly and easily to these subcategories, indicating lower sales in the current year compared to the previous year.
+- The black bars represent the current year, while the grey bars represent the previous year. If a black bar is smaller than a grey bar, it indicates that the product subcategory's sales for the current year were lower than those of the previous year.
+- The blue bars represent a profit for the current year in view, whilst the orange bars represent a loss for the current year in view for that particular product subcategory.
 
 After formatting, below are our bar in bar, and bar charts:
 
