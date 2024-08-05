@@ -22,7 +22,7 @@ To tackle this task, we will follow the plan below:
 - Format charts
   - Remove gridlines and other unnecessary lines/borders.
   - Clean up axes and headers.
-  - Select colors and format tooltips.
+  - Select colours and format tooltips.
   - Add necessary highlights to emphasise key data points.
  
  ## Build the Dashboards
@@ -71,7 +71,7 @@ The Sales Dashboard should meet the following design requirements:
 - Interactive charts, allowing end users to filter data using the charts.
 - The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
 
-## Strategy to Meet Content and Design Needs
+## Strategy to Meet Content and Design Requirements
 
 Below is our plan to meet the content and design requirements.
 
@@ -213,11 +213,13 @@ The PowerPoint sizing option is particularly popular, as many organisations pref
 
 ## Containers
 
-Layout containers may be the ultimate love-hate relationship within Tableau. Whilst containers are great for several uses like providing structure to your dashboard, assisting with alignment of elements, dynamic resizing and creation of re-usable layouts, they can also be a pain to work with. However, if you use them correctly they will serve you well. 
+Layout containers may be the ultimate love-hate relationship within Tableau. Whilst containers are great for several uses like providing structure to your dashboard, assisting with alignment of elements, dynamic resizing and creation of re-usable layouts, they can also be a pain to work with. 
 
-For our task, we will utilise containers in a manner that minimises mess and the potential for the dashboard to break. The very first primary vertical container, which will hold all subsequent containers, will be floated, the coordinates will be set to 0,0 and the size will be set to the size of the dashboard which is 1200 x 800. By floating the first container which holds all subsequent containers, we will keep nested tiled containers from automatically appearing in the item hierarchy. Tiled containers add extra layers into the item hierarchy which makes it hard to track your containers and makes your item hierarchy confusing to read. This is not ideal for yourself, nor for other users that may need to view the item hierarchy. To keep the item hierarchy neat, we will also label all our containers so we know which container holds which elements and is for which purpose. Additionally, blank objects will be used as placeholders in our containers to asisst with inputting our elements into the correct container/correct position in the container. These blank objects become increasingly important when you've got multiple containers around each other and it becomes trickier to drag and drop elements in the correct position. 
+For our task, we will utilise containers in a way that minimises mess and reduces the risk of the dashboard breaking. The primary vertical container, which will hold all subsequent containers, will be floated, with its coordinates set to 0,0 and its size configured to match the dashboard dimensions of 1200 x 800. By floating this primary container, we prevent nested tiled containers from automatically appearing in the item hierarchy. Tiled containers add unnecessary layers to the item hierarchy, making it difficult to track and understand, which is not ideal for you or other users who may need to view the item hierarchy.
 
-Below is our item hierarchy which looks clean, with clearly labelled containers without extra unnecessary layers. If we had used tiled containers, there would be several "tiled" layers in the item hierarchy.
+To maintain a clean item hierarchy, we will label all containers clearly, indicating which elements they hold. Additionally, we will use blank objects as placeholders within our containers to assist with positioning elements correctly. These blank objects are especially important when working with multiple containers around each other, as they assist in the accurate placement of elements.
+
+Below is our item hierarchy, which appears clean and clearly labeled, without any unnecessary layers. If we had used tiled containers, the item hierarchy would have included multiple 'tiled' layers, complicating the structure.
 
 ![image](https://github.com/user-attachments/assets/1f57a467-8359-4251-b97b-120ef7abbe90)
 
@@ -228,7 +230,7 @@ Below is our item hierarchy which looks clean, with clearly labelled containers 
 
 *Image 7. Item Hierarchy 2*
 
-Here is the final container structure below. Our primary floating vertical container has the orange border, whilst the 3 horizontal containers within this container are shaded blue. 
+The final container structure is below. Our primary floating vertical container comprises of the orange border, whilst the 3 horizontal containers within this container are shaded blue. 
 
 ![image](https://github.com/user-attachments/assets/132ea26b-8cd0-4097-9a07-e2d421d1ecaf)
 
@@ -250,11 +252,11 @@ Key points regarding the Sales Dashboard:
 - The years displayed on the dashboard are all dynamic and update automatically based on the user's selected year. As illustrated in Image 10, the years have changed to 2021 for the current year and 2020 for the previous year. By keeping the years visible on the screen at all times, end users can easily see the relevant time periods without having to refer back to the filter. 
 - A clear visual hierarchy is visible with the KPI's prominently displayed at the top
 - Whitespace has been utilised to divide the dashboard into distinct sections, preventing clutter and making the overall layout more visually appealing and easier on the eye.
-- Contrasting colors have been used to highlight different elements, such as low and high months, making them easier to distinguish. Additionally, the colours serve as codes to build familiarity: orange for loss/lower values and blue for profit/higher values. This allows for quicker comprehension. When readers first associate orange with loss in the BANs, they will immediately recognise that anything marked with orange in the sales and profit by subcategory chart and the sales and profit trends over time chart indicates lower values. This also maintains consistency through the dashboard.
+- Contrasting colours have been used to highlight different elements, such as low and high months, making them easier to distinguish. Additionally, the colours serve as codes to build familiarity: orange for loss/lower values and blue for profit/higher values. This allows for quicker comprehension. When readers first associate orange with loss in the BANs, they will immediately recognise that anything marked with orange in the sales and profit by subcategory chart and the sales and profit trends over time chart indicates lower values. This also maintains consistency through the dashboard.
 - The navigation icons change from blue to white and vice versa depending on which dashboard the end user is viewing, providing a clear visual indicator of the end user's current location within the dashboard.
 - The filter pane can be kept on display or hidden using the 'x' button, this optimises screen space and potentially improves loading times by reducing the number of visible elements on the screen at once.
 
-# Analysis of Requirements (Customers Dashboard)
+# Requirements Analysis (Customers Dashboard)
 
 ## Content Requirements
 
@@ -282,7 +284,7 @@ The requirements below for the Customers Dashboard have also been provided to us
 - Interactive charts, allowing end users to filter data using the charts.
 - The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
 
-## Plan to Meet Requirements
+## ## Strategy to Meet Content and Design Requirements
 
 Below is our plan to meet the content and design requirements.
 
@@ -294,19 +296,19 @@ Below is our plan to meet the content and design requirements.
 - **Present data for each KPI on a monthly basis for the current and previous year.**
 - **Identify the months with the highest and lowest sales, highlighting these months for easier recognition.**
 
-The KPI Overview and Customer Trend requirements are very similar to the KPI requirements and Sales Trends for the Sales Dashboard above. Hence, the plan to meet these requirements will be exactly the same. BAN's will be used to display the KPI's whilst sparklines will be used to showcase customer trends overtime. 
+The KPI Overview and Customer Trend requirements are very similar to the KPI requirements and Sales Trends for the Sales Dashboard above. Hence, the approach to meet these requirements will be exactly the same. BAN's will be used to display the KPI's whilst sparklines will be used to showcase customer trends overtime. 
 
 **Customer Distribution by Number of Orders:**
 
 - **Provide a representation of the distribution of customers based on the number of orders placed to provide insights into customer behaviour, loyalty and engagement.**
 
-For customer distribution by number of orders, a histogram will be used. A **histogram** will help in understanding how many customers fall into the different ranges (bins) of the number of orders placed, providing a clear picture of the overall distribution. Additionally, the histogram will also allow the spotting of outliers or unusual data points that may indicate unique customer segements or behaviours. 
+Whenever "distribution" is mentioned in a requirement, **histograms** are the first type of chart that come to mind. A **histogram** helps in understanding the frequency distribution of customers across different ranges (bins) of the number of orders placed, providing a clear visualisation of the overall distribution. Additionally, histograms enable the identification of outliers or unusual data points, which may indicate unique customer segments or behaviours." 
 
 **Top 10 Customers by Profit:**
 - **Display the top 10 customers by profits in descending order.**
 - **Show additional information such as rank, number of orders, current sales, current profit and the last order date.**
 
-For Top 10 Customers by Profit, a simple **table** will be used. Due to the amount of detail we have to display, a table with the metrics as columns and ranks as rows will provide a picture of the information required. 
+For Top 10 Customers by Profit, a simple **table** will be used. Due to the amount of detail we have to display, a table with the metrics as columns and ranks as rows will provide a clear picture of the information required. 
 
 Parameters will be employed to enable end users to access historical data from previous years. For interactivity, dimension, date, and action filters will be implemented, allowing end users to filter data via the charts, as well as by category, subcategory, and location. Additionally, navigation buttons will be incorporated to facilitate easy navigation between dashboards.
 
@@ -338,9 +340,9 @@ For the Top Customers by Profit table, we used the INDEX() function to assign a 
 
 # Building Dashboard
 
-## Final Sales Dashboard
+## Final Customers Dashboard
 
-The sizing and container structure will be exactly the same as the Sales Dashboard. The only primary differences between the two dashboard are the different charts, and the navigation buttons which turn white when active on that particular dashboard. 
+The sizing and container structure will be exactly the same as the Sales Dashboard. The only primary differences between the two dashboard are the different charts.
 
 After formatting and re-arranging the elements, below is the final version of the Customers Dashboard.
 
@@ -350,8 +352,7 @@ After formatting and re-arranging the elements, below is the final version of th
 
 # Final Analysis
 
-
-
+Now that our dashboards are complete. 
 
 
 
