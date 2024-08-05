@@ -6,7 +6,7 @@ To tackle this task, we will follow the plan below:
 
 ## Analyse Requirements & Documentation
 - Collect and understand task requirements.
-- Create project documentation (project purpose, dashboard instructionsinstructions, version control etc.).
+- Create project documentation (project purpose, dashboard use instructions, version control etc.).
 - Select optimal charts.
 - Develop mockups and prototypes.
 
