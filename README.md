@@ -36,7 +36,8 @@ To tackle this task, we will follow the plan below:
    - Add icons for navigation buttons.
 - Test the dashboard and optimise performance.
 
-# Analysis of Requirements, Data Source & Documentation (Sales Dashboard)
+# Analysis of Requirements, Data Source & Documentation 
+(Sales Dashboard)
 
 ## Data Source
 
