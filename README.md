@@ -147,7 +147,7 @@ Now that we've analysed our requirements, created a mockup and documentation tem
 # Building Charts
 
 ## BANs
-We will now go ahead and create our BANs, as below:
+We will now go ahead and create our BANs, as below.
 
 ![image](https://github.com/user-attachments/assets/68d27ea2-67ff-45b1-88e6-6c7e84ec5677)
 
