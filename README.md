@@ -36,7 +36,11 @@ To tackle this task, we will follow the plan below:
    - Add icons for navigation buttons.
 - Test the dashboard and optimise performance.
 
-# Analysis of Requirements (Sales Dashboard)
+# Analysis of Requirements, Data Source & Documentation (Sales Dashboard)
+
+## Data Source
+
+Management has provided the necessary data to complete the task, accessible [here](https://github.com/parvezs27/Tableau_Sales_Dashboards/tree/main/Data%20Source). The data comprises of four CSV files: 'Customers', 'Location', 'Orders' and 'Products', which have already been cleaned. 
 
 ## Content Requirements
 
