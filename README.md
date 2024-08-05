@@ -4,8 +4,9 @@ We are working as Data Analysts for the retail company "Superstore", which sells
 
 To tackle this task, we will follow the plan below:
 
-## Analyse Requirements & Documentation
+## Analyse Requirements, Select Data Source & Create Documentation
 - Collect and understand task requirements.
+- Identify and select data source/s.
 - Create project documentation (project purpose, dashboard use instructions, version control etc.).
 - Select optimal charts.
 - Develop mockups and prototypes.
@@ -22,6 +23,7 @@ To tackle this task, we will follow the plan below:
   - Remove gridlines and other unnecessary lines/borders.
   - Clean up axes and headers.
   - Select colors and format tooltips.
+  - Add necessary highlights to emphasise key data points.
  
  ## Build the Dashboards
  - Build container structure.
@@ -30,9 +32,9 @@ To tackle this task, we will follow the plan below:
    - Utilise functions e.g. "dsitribute contents evenly" and inner and outer padding to alignment elements.
    - Utilise space by fitting charts to "entire view".
    - Add relevent legends/colour keys.
-   - Add filters for interactivty.
+   - Add interactive elements e.g. filters and parameters.
    - Add icons for navigation buttons.
-- Test the dashboard.
+- Test the dashboard and optimise performance.
 
 # Analysis of Requirements (Sales Dashboard)
 
