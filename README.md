@@ -1,3 +1,10 @@
+# Project Links
+
+1. Completed Dashboards on Tableau Public can be accessed [here](https://public.tableau.com/views/SalesandCustomerSuperstoreDashboards/SalesDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+2. Data Source can be accessed [here](https://github.com/parvezs27/Tableau_Sales_Dashboards/tree/main/Data%20Source).
+3. Figma Mockup/Wirefram can be accessed [here](https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1).
+4. Dashboard Documentation can be accessed [here](https://github.com/parvezs27/Tableau_Sales_Dashboards/blob/main/Sales%20and%20Customer%20Dashboard%20Document.pdf). 
+
 # Task Context
 
 We are working as Data Analysts for the retail company "Superstore", which sells furniture, office supplies and technology products. We have been tasked with developing two dashboards using Tableau, to assist stakeholders including sales managers and executives, in analysing sales performance and customers. Stakeholders would like to a high level view of key metrics and to be able to analyse year-over-year performance. Additionally, stakeholders would like to see an overview of customer data, trends and behaviours, in order to assist management and marketing teams to understand customer segments and improve customer satisfaction.
