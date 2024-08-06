@@ -350,9 +350,21 @@ After formatting and re-arranging the elements, below is the final version of th
 
 *Image 11. Customers Dashboard*
 
-# Final Analysis
+# Insights Analysis
 
-Now that our dashboards are complete. 
+We can now go ahead and utilise our developed dashboards to derive key insights. As analysts, our role extends beyond merely creating dashboards. Our primary role is to apply our analytical skills to interpret the key information conveyed by the data and effectively communicating these insights to stakeholders
+
+**Total Sales**
+
+- In 2023, total sales were $733K, which were 20.4% higher than total sales in 2022.
+- The lowest month of total sales in 2023 was February with $20K in total sales, whilst the highest month of total sales in 2023 was November with $118k in total sales.
+- There are dips and rises in sales throughout 2023, and this is also visible for the years prior to 2020. There are several commonalities between the sales trends from 2020 to 2023. February was the lowest selling month in 2020, 2021 and 2023, whilst January was the lowest selling month in 2022. January and February are the lowest selling months, and this may simply be due to the fact that after Christmas and New Years retail spending slows down as the festive season is over and people tend to leave for holidays including businesses.
+- Another commonality that can be seen across all years is a steady sales trend till July and August, followed by a spike in sales in September, with sales hitting a peak prior and during the Christmas festive season in the months of November and December. An exception here was in 2020, where sales peaked in September. The spike in sales in the month of September can be due to several reasons such as back to school shopping with Summer break coming to an end, end of Summer sales and Labor Day (celebrated on the first Monday of September) sales. 
+-
+-   From February to March there was a spike in sales, with double the sales of February in March ($59K). This may have been due to several reasons
+
+
+
 
 
 
