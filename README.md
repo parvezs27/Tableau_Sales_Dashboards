@@ -363,14 +363,29 @@ We can now go ahead and utilise our developed dashboards to derive key insights.
 - Overall, total sales are on an upward trend, with increases from the year before since 2020. In 2020 sales were $484K, with sales reaching $733K in 2023, this is a 51.45% increase over 3 years.
 
 **Total Profit**
+
 - In 2023, total profit was $93K, which was 14.2% higher than total profit in 2022.
 - The lowest month of profitability in 2023 was April ($1K Profit), whilst the highest month of profitability in 2023 was March ($15K).
 - Like total sales, there are dips and rises in profitabilty throughout 2023, and this is also visible for the years prior to 2020. There are differences between profitability trends from 2020 to 2023. In 2020 the lowest and highest months of profitability were July and November respectively, with the lowest month of profitabillity changing to January in 2021 and finally, the lowest and highest months of profitability changing to August and December respectively in 2022. The reason why November-December tend to be the peak months of profitability may simply be due to to increased spending around the Christmas festive season. The month of March being the highest month of profitability in 2023 is interesting, even higher than the festive season months and warrants further investigation. Was it due to higher profitability products being sold more in that month? Why? Was it due to the release of a flagship phone in that month or a high in demand product?
 - Overall, total profitability is on an upward trend too like sales, with increases from the year before since 2020. In 2020, total profit was $50K, with total profit reaching $93K in 2023, this is a 86% increase over 3 years. 
 
+**Total Quantity**
 
+- In 2023, total quanity of units sold was 12K, which was 26.8% higher than the total quantity sold in 2022.
+- The lowest selling month of units 2023 was February (363 units), whilst the highest month of sellling units was in 2023 was November with 1840 units sold. 
+- Like total sales and profit, there are dips and rises in total units sold throughout 2023, and this is also visible for the years prior to 2020. There are commonalities between unit selling trends from 2020 to 2023, with January-February being the lowest unit selling months and November-December being the highest unit selling months. This may also be simply due to the fact that spending and purchases increase around the festive months and decrease right after the festive months are over in January and February.
+- The total quantity of units sold trends from 2020 to 2023 resemble the total sales trends quite closely, with steady units sold until July-August and a spike in September. 
+- Overall, total profitability is on an upward trend too like sales and profit, with increases from the year before since 2020. In 2020, total quantity sold was $8K, with total quantity sold reaching 12K in 2023, this is a 50% over 3 years. 
 
+**Sales and Profit by Subcategory**
 
+- From 2020 to 2023, phones and chairs subcategories have generated the most sales, whilst copiers, accessories and phones tend to be the higher profitability subcategories. 
+- Subcategories with lower sales than the previous year tend to change, with 8 subcategories in 2021 with lower sales compared to 2020, reducing to 3 categories with lower sales in 2022 compard to 2021 and then 3 different categories to 2022, with sales lower in 2023 compared to 2022.
+- Subcategories such as tables have not been profitable from 2020 to 2023, which warrants further investigation as to why this is the case. Have there been increased discounts offered on table sales?
+
+**Sales and Profit Trends over Time** 
+
+*Analysis to be continued*
 
 
 
