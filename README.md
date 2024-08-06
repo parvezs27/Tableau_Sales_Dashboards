@@ -3,7 +3,7 @@
 1. Completed Dashboards on Tableau Public can be accessed [here](https://public.tableau.com/views/SalesandCustomerSuperstoreDashboards/SalesDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 2. Data Source can be accessed [here](https://github.com/parvezs27/Tableau_Sales_Dashboards/tree/main/Data%20Source).
 3. Figma Mockup/Wirefram can be accessed [here](https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1).
-4. Dashboard Documentation can be accessed [here](https://github.com/parvezs27/Tableau_Sales_Dashboards/blob/main/Sales%20and%20Customer%20Dashboard%20Document.pdf). 
+4. Dashboard Documentation can be accessed [here](https://github.com/parvezs27/Tableau_Sales_Dashboards/blob/main/Dashboards%20and%20Documentation/Sales%20and%20Customer%20Dashboard%20Document.pdf). 
 
 # Task Context
 
@@ -131,7 +131,7 @@ Figma is a great tool to use to prototype your dashboards due to it's features a
 
 ## Documentation
 
-The documentation we have created and will use for this project can be accessed [here](https://github.com/parvezs27/Tableau_Sales_Dashboards/blob/main/Sales%20and%20Customer%20Dashboard%20Document.pdf). 
+The documentation we have created and will use for this project can be accessed [here](https://github.com/parvezs27/Tableau_Sales_Dashboards/blob/main/Dashboards%20and%20Documentation/Sales%20and%20Customer%20Dashboard%20Document.pdf). 
 
 Dashboard documentation is a best practice and it's crucial that documentation is developed for our dashboards and projects. Documentation provides clarity and guidance to end users, ensuring they understand the purpose and benefits of the dashboard within the context of the business problem/question, the functionality of the dashboard and how to use it optimally. Additionally, documentation holds key information such as data source information and maintenance/update details, which ensure transparency, accountability and preservation of dashboard integrity. 
 
