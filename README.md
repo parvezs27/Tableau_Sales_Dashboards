@@ -38,7 +38,7 @@ To tackle this task, we will follow the plan below:
  - Format
    - Utilise functions e.g. "distribute contents evenly" and inner and outer padding to align elements evenly.
    - Utilise space by fitting charts to "entire view".
-   - Add relevent legends/colour keys.
+   - Add relevant legends/colour keys.
    - Add interactive elements e.g. filters and parameters.
    - Add icons for navigation buttons.
 - Test the dashboard and optimise performance.
@@ -73,8 +73,8 @@ The content requirements for the Sales Dashboard have been provided to us by man
 
 The Sales Dashboard should meet the following design requirements:
 
-- Allow the end user flexibiity to view historical data.
-- Allow the end user easy navigatation between dashboards.
+- Allow the end user flexibility to view historical data.
+- Allow the end user easy navigation between dashboards.
 - Interactive charts, allowing end users to filter data using the charts.
 - The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
 
@@ -110,12 +110,12 @@ Talking about bar charts, they are one of the most commonly used and effective v
 - **Show the weekly sales and profit for the current year and display the average weekly sales and profit values.**
 - **Highlight the weeks that are above and below the average values.**
 
-For weekly trends for sales and profits, since we are looking at sales and profit data over time on a weekly basis, a line chart would be a good choice here. The path of the chart can be customised from a linear path to a step path for example. Line charts with a linear path use straight lines between data points, implying a constant rate of change from one data point to the next, which may not always be true. **Step line charts** can be an effective way to display a more accurate depiciton of the change between data points by showing how long the value at a specific data point lasts or how large a change is between data points. 
+For weekly trends for sales and profits, since we are looking at sales and profit data over time on a weekly basis, a line chart would be a good choice here. The path of the chart can be customised from a linear path to a step path for example. Line charts with a linear path use straight lines between data points, implying a constant rate of change from one data point to the next, which may not always be true. **Step line charts** can be an effective way to display a more accurate depiction of the change between data points by showing how long the value at a specific data point lasts or how large a change is between data points. 
 
 **Design Requirements**
 
-- Allow the end user flexibiity to view historical data.
-- Allow the end user easy navigatation between dashboards.
+- Allow the end user flexibility to view historical data.
+- Allow the end user easy navigation between dashboards.
 - Interactive charts, allowing end users to filter data using the charts.
 - The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
 
@@ -141,13 +141,13 @@ The documentation for this dashboard will be kept in a separate file. Dashboard 
 
 We will start by building our data model. It is important to understand the data we have and to see which tables are dimensions and which tables are facts. The Customers, Location and Products tables are dimension tables, as the information in these tables contain categorical data that provide context to measures. The Orders table is a fact table, as it contains transactions which are measurable business events. 
 
-Now that we understand our data we can start modeling this data for our use. We will create a relation between each dimension table and the fact table as below. You can think of this model as one fact table, and all the dimension tables are connected to this one fact table to describe the facts. 
+Now that we understand our data we can start modelling this data for our use. We will create a relation between each dimension table and the fact table as below. You can think of this model as one fact table, and all the dimension tables are connected to this one fact table to describe the facts. 
 
 ![image](https://github.com/user-attachments/assets/01543540-1e77-4a9b-933c-ab27c0bb1a9e)
 
 *Image 1. Data Model* 
 
-Now we will go ahead and check the data types to ensure that Tableau has interpreted and processed the data correctly. It is not uncommon for Tableau to misinterpet the data, hence why it is important to do a manual check. Potential misinterpretations by Tableau may include interpreting Dates as Strings, which won't allow us to analyse the data in relation to time. Additionally, numbers can be interpreted as strings, if this happens, we won't be allowed to perform mathematical operations like sum, average,  percentage calculations etc. Upon checking our data, we can see all the data types are correct. Text columns like Product Name have the string data type, numerical columns like Profit have the number data type, date columns have the date data type and location columns have the geographic data type.  
+Now we will go ahead and check the data types to ensure that Tableau has interpreted and processed the data correctly. It is not uncommon for Tableau to misinterpret the data, hence why it is important to do a manual check. Potential misinterpretations by Tableau may include interpreting Dates as Strings, which won't allow us to analyse the data in relation to time. Additionally, numbers can be interpreted as strings, if this happens, we won't be allowed to perform mathematical operations like sum, average,  percentage calculations etc. Upon checking our data, we can see all the data types are correct. Text columns like Product Name have the string data type, numerical columns like Profit have the number data type, date columns have the date data type and location columns have the geographic data type.  
 
 Now that we have analysed our requirements, created a mockup and documentation template, and built our data source, we can move onto the exciting part and start developing our visualisations. 
 
@@ -226,7 +226,7 @@ For our task, we will utilise containers in a way that minimises mess and reduce
 
 To maintain a clean item hierarchy, we will label all containers clearly, indicating which elements they hold. Additionally, we will use blank objects as placeholders within our containers to assist with positioning elements correctly. These blank objects are especially important when working with multiple containers around each other, as they assist in the accurate placement of elements.
 
-Below is our item hierarchy, which appears clean and clearly labeled, without any unnecessary layers. If we had used tiled containers, the item hierarchy would have included multiple 'tiled' layers, complicating the structure.
+Below is our item hierarchy, which appears clean and clearly labelled, without any unnecessary layers. If we had used tiled containers, the item hierarchy would have included multiple 'tiled' layers, complicating the structure.
 
 ![image](https://github.com/user-attachments/assets/1f57a467-8359-4251-b97b-120ef7abbe90)
 
@@ -278,7 +278,7 @@ The requirements below for the Customers Dashboard have also been provided to us
 - Identify the months with the highest and lowest sales, highlighting these months for easier recognition. 
 
 **Customer Distribution by Number of Orders:**
-- Provide a representation of the distribution of customers based on the number of orders placed to provide insights into customer behaviour, loyality and engagement. 
+- Provide a representation of the distribution of customers based on the number of orders placed to provide insights into customer behaviour, loyalty and engagement. 
 
 **Top 10 Customers by Profit:**
 - Display the top 10 customers by profits in descending order.
@@ -286,8 +286,8 @@ The requirements below for the Customers Dashboard have also been provided to us
 
 ## Design Requirements
 
-- Allow the end user flexibiity to view historical data.
-- Allow the end user easy navigatation between dashboards.
+- Allow the end user flexibility to view historical data.
+- Allow the end user easy navigation between dashboards.
 - Interactive charts, allowing end users to filter data using the charts.
 - The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
 
@@ -333,7 +333,7 @@ The same process as the Sales Dashboard will be followed here too.
 
 ## Histogram and Weekly Trends for Sales and Top 10 Customers by Profit
 
-To show the customer distribution, since we are talking aboout two measures 1) Count of customers and 2) Count of orders, we have to use an LOD (level of detail) expression to generate the bins for the histogram and find the total number of orders for each customer for the current year. The LOD expression used is below.
+To show the customer distribution, since we are talking about two measures 1) Count of customers and 2) Count of orders, we have to use an LOD (level of detail) expression to generate the bins for the histogram and find the total number of orders for each customer for the current year. The LOD expression used is below.
 
 ```
 { FIXED [CY Customers]: COUNTD([CY Orders])}
@@ -373,13 +373,13 @@ We can now go ahead and utilise our developed dashboards to derive key insights.
 
 - In 2023, total profit was $93K, which was 14.2% higher than total profit in 2022.
 - The lowest month of profitability in 2023 was April ($1K Profit), whilst the highest month of profitability in 2023 was March ($15K).
-- Like total sales, there are dips and rises in profitabilty throughout 2023, and this is also visible for the years prior to 2020. There are differences between profitability trends from 2020 to 2023. In 2020 the lowest and highest months of profitability were July and November respectively, with the lowest month of profitabillity changing to January in 2021 and finally, the lowest and highest months of profitability changing to August and December respectively in 2022. The reason why November-December tend to be the peak months of profitability may simply be due to to increased spending around the Christmas festive season. The month of March being the highest month of profitability in 2023 is interesting, even higher than the festive season months and warrants further investigation. Was it due to higher profitability products being sold more in that month? Why? Was it due to the release of a flagship phone in that month or a high in demand product?
+- Like total sales, there are dips and rises in profitability throughout 2023, and this is also visible for the years prior to 2020. There are differences between profitability trends from 2020 to 2023. In 2020 the lowest and highest months of profitability were July and November respectively, with the lowest month of profitability changing to January in 2021 and finally, the lowest and highest months of profitability changing to August and December respectively in 2022. The reason why November-December tend to be the peak months of profitability may simply be due to increased spending around the Christmas festive season. The month of March being the highest month of profitability in 2023 is interesting, even higher than the festive season months and warrants further investigation. Was it due to higher profitability products being sold more in that month? Why? Was it due to the release of a flagship phone in that month or a high in demand product?
 - Overall, total profitability is on an upward trend too like sales, with increases from the year before since 2020. In 2020, total profit was $50K, with total profit reaching $93K in 2023, this is a 86% increase over 3 years. 
 
 **Total Quantity**
 
-- In 2023, total quanity of units sold was 12K, which was 26.8% higher than the total quantity sold in 2022.
-- The lowest selling month of units 2023 was February (363 units), whilst the highest month of sellling units was in 2023 was November with 1840 units sold. 
+- In 2023, total quantity of units sold was 12K, which was 26.8% higher than the total quantity sold in 2022.
+- The lowest selling month of units 2023 was February (363 units), whilst the highest month of selling units was in 2023 was November with 1840 units sold. 
 - Like total sales and profit, there are dips and rises in total units sold throughout 2023, and this is also visible for the years prior to 2020. There are commonalities between unit selling trends from 2020 to 2023, with January-February being the lowest unit selling months and November-December being the highest unit selling months. This may also be simply due to the fact that spending and purchases increase around the festive months and decrease right after the festive months are over in January and February.
 - The total quantity of units sold trends from 2020 to 2023 resemble the total sales trends quite closely, with steady units sold until July-August and a spike in September. 
 - Overall, total profitability is on an upward trend too like sales and profit, with increases from the year before since 2020. In 2020, total quantity sold was $8K, with total quantity sold reaching 12K in 2023, this is a 50% over 3 years. 
@@ -387,7 +387,7 @@ We can now go ahead and utilise our developed dashboards to derive key insights.
 **Sales and Profit by Subcategory**
 
 - From 2020 to 2023, phones and chairs subcategories have generated the most sales, whilst copiers, accessories and phones tend to be the higher profitability subcategories. 
-- Subcategories with lower sales than the previous year tend to change, with 8 subcategories in 2021 with lower sales compared to 2020, reducing to 3 categories with lower sales in 2022 compard to 2021 and then 3 different categories to 2022, with sales lower in 2023 compared to 2022.
+- Subcategories with lower sales than the previous year tend to change, with 8 subcategories in 2021 with lower sales compared to 2020, reducing to 3 categories with lower sales in 2022 compared to 2021 and then 3 different categories to 2022, with sales lower in 2023 compared to 2022.
 - Subcategories such as tables have not been profitable from 2020 to 2023, which warrants further investigation as to why this is the case. Have there been increased discounts offered on table sales?
 
 **Sales and Profit Trends over Time** 
