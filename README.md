@@ -2,7 +2,7 @@
 
 1. Completed Dashboards on Tableau Public can be accessed [here](https://public.tableau.com/views/SalesandCustomerSuperstoreDashboards/SalesDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 2. Data Source can be accessed [here](https://github.com/parvezs27/Tableau_Sales_Dashboards/tree/main/Data%20Source).
-3. Figma Mockup/Wirefram can be accessed [here](https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1).
+3. Figma Mockup/Wireframe can be accessed [here](https://www.figma.com/design/DFoayFIDtm6SNWIpFZskPh/Sales-Dashboard?node-id=0-1&t=nWqf2NGtbFsqxyDH-1).
 4. Dashboard Documentation can be accessed [here](https://github.com/parvezs27/Tableau_Sales_Dashboards/blob/main/Dashboards%20and%20Documentation/Sales%20and%20Customer%20Dashboard%20Document.pdf). 
 
 # Task Context
