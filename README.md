@@ -7,7 +7,7 @@
 
 # Task Context
 
-We are working as Data Analysts for the retail company "Superstore", which sells furniture, office supplies and technology products. We have been tasked with developing two dashboards using Tableau, to assist stakeholders including sales managers and executives, in analysing sales performance and customers. Stakeholders would like to a high level view of key metrics and to be able to analyse year-over-year performance. Additionally, stakeholders would like to see an overview of customer data, trends and behaviours, in order to assist management and marketing teams to understand customer segments and improve customer satisfaction.
+We are working as Data Analysts for the retail company "Superstore", which sells furniture, office supplies and technology products in the USA. We have been tasked with developing two dashboards using Tableau, to assist stakeholders including sales managers and executives, in analysing sales performance and customers. Stakeholders would like to a high level view of key metrics and to be able to analyse year-over-year performance. Additionally, stakeholders would like to see an overview of customer data, trends and behaviours, in order to assist management and marketing teams to understand customer segments and improve customer satisfaction.
 
 To tackle this task, we will follow the plan below:
 
@@ -359,21 +359,21 @@ After formatting and re-arranging the elements, below is the final version of th
 
 # Insights Analysis
 
-We can now go ahead and utilise our developed dashboards to derive key insights. As analysts, our role extends beyond merely creating dashboards. Our primary role is to apply our analytical skills to interpret the key information conveyed by the data and effectively communicating these insights to stakeholders
+We can now go ahead and utilise our developed dashboards to derive key insights. As analysts, our role extends beyond merely creating dashboards. Our primary role is to apply our analytical skills to interpret the key information conveyed by the data and effectively communicating these insights to stakeholders. It's important to understand what is happening, why it's happening and how is it important in the overall context of the business and business problem/question. 
 
 **Total Sales**
 
 - In 2023, total sales were $733K, which were 20.4% higher than total sales in 2022.
 - The lowest month of total sales in 2023 was February with $20K in total sales, whilst the highest month of total sales in 2023 was November with $118k in total sales.
-- There are dips and rises in sales throughout 2023, and this is also visible for the years prior to 2020. There are several commonalities between the sales trends from 2020 to 2023. February was the lowest selling month in 2020, 2021 and 2023, whilst January was the lowest selling month in 2022. January and February are the lowest selling months, and this may simply be due to the fact that after Christmas and New Years retail spending slows down as the festive season is over and people tend to leave for holidays including businesses.
-- Another commonality that can be seen across all years is a steady sales trend till July and August, followed by a spike in sales in September, with sales hitting a peak prior and during the Christmas festive season in the months of November and December. An exception here was in 2020, where sales peaked in September. The spike in sales in the month of September can be due to several reasons such as back to school shopping with Summer break coming to an end, end of Summer sales and Labor Day (celebrated on the first Monday of September) sales. September may have been the peak sales month in 2020, as opposed to November or December which are normally the peak sales months, due to Covid and with many states going to re-opening phases around September, which may have led to more consumer spending.
+- There are dips and rises in sales throughout 2023, and this is also visible for the years prior to 2020. There are several commonalities between the sales trends from 2020 to 2023. February was the lowest selling month in 2020, 2021 and 2023, whilst January was the lowest selling month in 2022. There could be several reasons why we see January and February continuously being the lowest selling months. This may simply be due to the fact that after Christmas and New Years retail spending slows down as the festive season is over and people tend to leave for holidays including businesses.
+- Another commonality that can be seen across all years is a steady sales trend till July and August, followed by a spike in sales in September, with sales hitting a peak prior and during the Christmas festive season in the months of November and December. An exception here was in 2020, where sales peaked in September. The spike in sales in the month of September can be due to several reasons such as back to school shopping with Summer break coming to an end, end of Summer sales and Labor Day (celebrated on the first Monday of September) sales in the USA. September may have been the peak sales month in 2020, as opposed to November or December which are normally the peak sales months, due to Covid and with many states going to re-opening phases around September, which may have led to more consumer spending.
 - Overall, total sales are on an upward trend, with increases from the year before since 2020. In 2020 sales were $484K, with sales reaching $733K in 2023, this is a 51.45% increase over 3 years.
 
 **Total Profit**
 
 - In 2023, total profit was $93K, which was 14.2% higher than total profit in 2022.
 - The lowest month of profitability in 2023 was April ($1K Profit), whilst the highest month of profitability in 2023 was March ($15K).
-- Like total sales, there are dips and rises in profitability throughout 2023, and this is also visible for the years prior to 2020. There are differences between profitability trends from 2020 to 2023. In 2020 the lowest and highest months of profitability were July and November respectively, with the lowest month of profitability changing to January in 2021 and finally, the lowest and highest months of profitability changing to August and December respectively in 2022. The reason why November-December tend to be the peak months of profitability may simply be due to increased spending around the Christmas festive season. The month of March being the highest month of profitability in 2023 is interesting, even higher than the festive season months and warrants further investigation. Was it due to higher profitability products being sold more in that month? Why? Was it due to the release of a flagship phone in that month or a high in demand product?
+- Like total sales, there are dips and rises in profitability throughout 2023, and this is also visible for the years prior to 2020. There are differences between profitability trends from 2020 to 2023. In 2020 the lowest and highest months of profitability were July and November respectively, with the lowest month of profitability changing to January in 2021 and finally, the lowest and highest months of profitability changing to August and December respectively in 2022. The reason why November-December tend to be the peak months of profitability may simply be due to increased spending around the Christmas festive season. The month of March being the highest month of profitability in 2023 is an interesting observation, as the profitability in March is even higher than the festive season months, this warrants further investigation. Was it due to higher profitability products being sold more in that month? Why? Was it due to the release of a flagship phone in that month or a high in demand product?
 - Overall, total profitability is on an upward trend too like sales, with increases from the year before since 2020. In 2020, total profit was $50K, with total profit reaching $93K in 2023, this is a 86% increase over 3 years. 
 
 **Total Quantity**
@@ -388,11 +388,14 @@ We can now go ahead and utilise our developed dashboards to derive key insights.
 
 - From 2020 to 2023, phones and chairs subcategories have generated the most sales, whilst copiers, accessories and phones tend to be the higher profitability subcategories. 
 - Subcategories with lower sales than the previous year tend to change, with 8 subcategories in 2021 with lower sales compared to 2020, reducing to 3 categories with lower sales in 2022 compared to 2021 and then 3 different categories to 2022, with sales lower in 2023 compared to 2022.
-- Subcategories such as tables have not been profitable from 2020 to 2023, which warrants further investigation as to why this is the case. Have there been increased discounts offered on table sales?
+- Subcategories such as tables have not been profitable from 2020 to 2023, which warrants further investigation as to why this is the case. Have there been increased discounts offered on table sales? 
 
 **Sales and Profit Trends over Time** 
 
-*Analysis to be continued*
+- In 2023, the rises and dips can be seen in sales and profit trends on a weekly basis. Prominent spikes above the average value of weekly sales in 2023 can be seen around weeks 4, 13 and 34-52 where there are constant spikes and dips, indicative of a greater overall spending period.
+- In 2023, the profit graph resembles the sales graph in some areas, such as around weeks 4, 12,  where spikes in sales were seen and week 47 where prominent spikes were seen, and at other weeks where the spikes weren't so prominent. As well as at other areas where there were dips in sales, around weeks 16, 44 and 51. Certain week periods should be further investigated such as around week 37 where sales were above average and on an upward trend, whilst profits show a prominent dip below the average value. Why was it when sales were increasing, profit dipped suddenly below the average weekly profit value? Was it because sales were discounted at a higher rate, thereby increasing revenue but decreasing the profit?
+
+*Further insights to be continued*.
 
 
 
