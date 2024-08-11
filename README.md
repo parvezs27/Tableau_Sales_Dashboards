@@ -291,7 +291,7 @@ The requirements below for the Customers Dashboard have also been provided to us
 - Interactive charts, allowing end users to filter data using the charts.
 - The dashboard should allow end users to filter by category, subcategory and location (region, state and city).
 
-## ## Strategy to Meet Content and Design Requirements
+## Strategy to Meet Content and Design Requirements
 
 Below is our plan to meet the content and design requirements.
 
