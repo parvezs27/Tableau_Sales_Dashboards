@@ -1,6 +1,8 @@
-This folder contains the data source files below:
+# Folder Contents
 
-Customers.csv
-Location.csv
-Orders.csv
-Products.csv
+This folder contains the following .csv files:
+
+1. Customers.csv
+2. Location.csv
+3. Orders.csv
+4. Products.csv
